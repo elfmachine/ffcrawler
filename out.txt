@@ -1,0 +1,2268 @@
+Opening team_pages/team0.htm
+Found team name: #1andDONE seed
+<class 'pandas.core.frame.DataFrame'>
+Index: 13 entries, Doug Baldwin  to Sammy Watkins 
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      13 non-null int64
+(Fantasy, Fan Pts)             13 non-null float64
+(Passing, Inc)                 13 non-null int64
+(Rushing, Yds)                 13 non-null int64
+(Receiving, TD)                13 non-null int64
+(Return, Int)                  13 non-null int64
+(Misc, Att)                    13 non-null int64
+(Fumbles, Yds)                 13 non-null int64
+(Unnamed: 9_level_0, TD)       13 non-null int64
+(Unnamed: 10_level_0, Tgt)     13 non-null int64
+(Unnamed: 11_level_0, Rec)     13 non-null int64
+(Unnamed: 12_level_0, Yds)     13 non-null int64
+(Unnamed: 13_level_0, TD)      13 non-null int64
+(Unnamed: 14_level_0, Yds)     13 non-null int64
+(Unnamed: 15_level_0, TD)      13 non-null int64
+(Unnamed: 16_level_0, 2PT)     13 non-null int64
+(Unnamed: 17_level_0, Tot)     13 non-null int64
+(Unnamed: 18_level_0, Lost)    13 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.9+ KB
+Index: Index(['Doug Baldwin', 'Peyton Barber', 'Blake Bortles', 'Amari Cooper',
+       'Josh Doctson', 'Antonio Gates', 'Marquise Goodwin', 'Mark Ingram',
+       'David Johnson', 'Joe Mixon', 'Latavius Murray', 'Matthew Stafford',
+       'Sammy Watkins'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                          Bye         ...                        Lost
+Doug Baldwin                      6         ...                           0
+Peyton Barber                     1         ...                           1
+Blake Bortles                     8         ...                           3
+Amari Cooper                     10         ...                           0
+Josh Doctson                      5         ...                           0
+Antonio Gates                     9         ...                           0
+Marquise Goodwin                 11         ...                           0
+Mark Ingram                       5         ...                           3
+David Johnson                     8         ...                           1
+Joe Mixon                         6         ...                           2
+Latavius Murray                   9         ...                           0
+Matthew Stafford                  7         ...                           7
+Sammy Watkins                    10         ...                           0
+
+[13 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Robbie Gould to Robbie Gould
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Robbie Gould'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+             Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                      Bye         ...                        Made
+Robbie Gould                 11         ...                          28
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 8 entries, A.J. Bouye  to Daryl Worley
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           8 non-null int64
+(Fantasy, Fan Pts)                  8 non-null float64
+(Return, Yds)                       8 non-null int64
+(Tackles, TD)                       8 non-null int64
+(Misc, Tack Solo)                   8 non-null int64
+(Turnovers, Tack Ast)               8 non-null int64
+(TD, TFL)                           8 non-null int64
+(Unnamed: 8_level_0, Sack)          8 non-null float64
+(Unnamed: 9_level_0, Safe)          8 non-null int64
+(Unnamed: 10_level_0, Pass Def)     8 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     8 non-null int64
+(Unnamed: 12_level_0, Int)          8 non-null int64
+(Unnamed: 13_level_0, Fum Force)    8 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      8 non-null int64
+(Unnamed: 15_level_0, TD)           8 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.0+ KB
+Index: Index(['A.J. Bouye', 'Kevin Byard', 'Jurrell Casey', 'DeMarcus Lawrence',
+       'Devin McCourty', 'Danny Trevathan', 'T.J. Watt', 'Daryl Worley'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                  Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                           Bye         ...                          TD
+A.J. Bouye                         8         ...                           0
+Kevin Byard                        8         ...                           0
+Jurrell Casey                      8         ...                           0
+DeMarcus Lawrence                  6         ...                           0
+Devin McCourty                     9         ...                           0
+Danny Trevathan                    9         ...                           0
+T.J. Watt                          9         ...                           0
+Daryl Worley                      10         ...                           0
+
+[8 rows x 15 columns]
+Opening team_pages/team1.htm
+Found team name: Club A&R Boss
+<class 'pandas.core.frame.DataFrame'>
+Index: 10 entries, LeGarrette Blount to Sterling Shepard
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      10 non-null int64
+(Fantasy, Fan Pts)             10 non-null float64
+(Passing, Inc)                 10 non-null int64
+(Rushing, Yds)                 10 non-null int64
+(Receiving, TD)                10 non-null int64
+(Return, Int)                  10 non-null int64
+(Misc, Att)                    10 non-null int64
+(Fumbles, Yds)                 10 non-null int64
+(Unnamed: 9_level_0, TD)       10 non-null int64
+(Unnamed: 10_level_0, Tgt)     10 non-null int64
+(Unnamed: 11_level_0, Rec)     10 non-null int64
+(Unnamed: 12_level_0, Yds)     10 non-null int64
+(Unnamed: 13_level_0, TD)      10 non-null int64
+(Unnamed: 14_level_0, Yds)     10 non-null int64
+(Unnamed: 15_level_0, TD)      10 non-null int64
+(Unnamed: 16_level_0, 2PT)     10 non-null int64
+(Unnamed: 17_level_0, Tot)     10 non-null int64
+(Unnamed: 18_level_0, Lost)    10 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.5+ KB
+Index: Index(['LeGarrette Blount', 'Randall Cobb', 'Brandin Cooks', 'Jimmy Graham',
+       'DeAndre Hopkins', 'Jesse James', 'Marshawn Lynch', 'Ty Montgomery',
+       'Dak Prescott', 'Sterling Shepard'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                  Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                           Bye         ...                        Lost
+LeGarrette Blount                  7         ...                           1
+Randall Cobb                       8         ...                           0
+Brandin Cooks                      8         ...                           0
+Jimmy Graham                       8         ...                           0
+DeAndre Hopkins                    7         ...                           1
+Jesse James                        9         ...                           0
+Marshawn Lynch                    10         ...                           1
+Ty Montgomery                      8         ...                           0
+Dak Prescott                       6         ...                           3
+Sterling Shepard                   8         ...                           0
+
+[10 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Graham Gano to Graham Gano
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Graham Gano'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+            Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Graham Gano                 11         ...                          34
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 10 entries, Geno Atkins to Nick Vigil
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           10 non-null int64
+(Fantasy, Fan Pts)                  10 non-null float64
+(Return, Yds)                       10 non-null int64
+(Tackles, TD)                       10 non-null int64
+(Misc, Tack Solo)                   10 non-null int64
+(Turnovers, Tack Ast)               10 non-null int64
+(TD, TFL)                           10 non-null int64
+(Unnamed: 8_level_0, Sack)          10 non-null float64
+(Unnamed: 9_level_0, Safe)          10 non-null int64
+(Unnamed: 10_level_0, Pass Def)     10 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     10 non-null int64
+(Unnamed: 12_level_0, Int)          10 non-null int64
+(Unnamed: 13_level_0, Fum Force)    10 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      10 non-null int64
+(Unnamed: 15_level_0, TD)           10 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.2+ KB
+Index: Index(['Geno Atkins', 'Brandon Carr', 'Patrick Chung', 'Kyle Fuller',
+       'Tashaun Gipson', 'Justin Houston', 'Von Miller', 'Emmanuel Ogbah',
+       'Jason PierrePaul', 'Nick Vigil'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Geno Atkins                       6         ...                           0
+Brandon Carr                     10         ...                           0
+Patrick Chung                     9         ...                           0
+Kyle Fuller                       9         ...                           0
+Tashaun Gipson                    8         ...                           0
+Justin Houston                   10         ...                           1
+Von Miller                        5         ...                           0
+Emmanuel Ogbah                    9         ...                           0
+Jason PierrePaul                  1         ...                           0
+Nick Vigil                        6         ...                           0
+
+[10 rows x 15 columns]
+Opening team_pages/team2.htm
+Found team name: Damn Jezebel
+<class 'pandas.core.frame.DataFrame'>
+Index: 12 entries, Keenan Allen to Tyrod Taylor
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      12 non-null int64
+(Fantasy, Fan Pts)             12 non-null float64
+(Passing, Inc)                 12 non-null int64
+(Rushing, Yds)                 12 non-null int64
+(Receiving, TD)                12 non-null int64
+(Return, Int)                  12 non-null int64
+(Misc, Att)                    12 non-null int64
+(Fumbles, Yds)                 12 non-null int64
+(Unnamed: 9_level_0, TD)       12 non-null int64
+(Unnamed: 10_level_0, Tgt)     12 non-null int64
+(Unnamed: 11_level_0, Rec)     12 non-null int64
+(Unnamed: 12_level_0, Yds)     12 non-null int64
+(Unnamed: 13_level_0, TD)      12 non-null int64
+(Unnamed: 14_level_0, Yds)     12 non-null int64
+(Unnamed: 15_level_0, TD)      12 non-null int64
+(Unnamed: 16_level_0, 2PT)     12 non-null int64
+(Unnamed: 17_level_0, Tot)     12 non-null int64
+(Unnamed: 18_level_0, Lost)    12 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.8+ KB
+Index: Index(['Keenan Allen', 'Corey Davis', 'Austin Ekeler', 'Devonta Freeman',
+       'Will Fuller V', 'Chris Hogan', 'Carlos Hyde', 'Josh McCown',
+       'Allen Robinson II', 'Austin SeferianJenkins', 'Kenny Stills',
+       'Tyrod Taylor'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                       Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                                Bye         ...                        Lost
+Keenan Allen                            9         ...                           0
+Corey Davis                             8         ...                           1
+Austin Ekeler                           9         ...                           2
+Devonta Freeman                         5         ...                           1
+Will Fuller V                           7         ...                           0
+Chris Hogan                             9         ...                           0
+Carlos Hyde                             9         ...                           1
+Josh McCown                            11         ...                           4
+Allen Robinson II                       9         ...                           0
+Austin SeferianJenkins                  8         ...                           1
+Kenny Stills                            1         ...                           2
+Tyrod Taylor                            9         ...                           2
+
+[12 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Matt Bryant to Matt Bryant
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Matt Bryant'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+            Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Matt Bryant                  5         ...                          35
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 9 entries, Joey Bosa  to K.J. Wright
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           9 non-null int64
+(Fantasy, Fan Pts)                  9 non-null float64
+(Return, Yds)                       9 non-null int64
+(Tackles, TD)                       9 non-null int64
+(Misc, Tack Solo)                   9 non-null int64
+(Turnovers, Tack Ast)               9 non-null int64
+(TD, TFL)                           9 non-null int64
+(Unnamed: 8_level_0, Sack)          9 non-null float64
+(Unnamed: 9_level_0, Safe)          9 non-null int64
+(Unnamed: 10_level_0, Pass Def)     9 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     9 non-null int64
+(Unnamed: 12_level_0, Int)          9 non-null int64
+(Unnamed: 13_level_0, Fum Force)    9 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      9 non-null int64
+(Unnamed: 15_level_0, TD)           9 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.1+ KB
+Index: Index(['Joey Bosa', 'Michael Brockers', 'Micah Hyde', 'Jalen Mills',
+       'Darius Slay', 'Lawrence Timmons', 'TreDavious White',
+       'Tahir Whitehead', 'K.J. Wright'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Joey Bosa                         9         ...                           0
+Michael Brockers                  8         ...                           0
+Micah Hyde                        6         ...                           0
+Jalen Mills                      10         ...                           1
+Darius Slay                       7         ...                           0
+Lawrence Timmons                  1         ...                           0
+TreDavious White                  6         ...                           1
+Tahir Whitehead                  10         ...                           0
+K.J. Wright                       6         ...                           0
+
+[9 rows x 15 columns]
+Opening team_pages/team3.htm
+Found team name: Fightin Tur-duc-hens
+<class 'pandas.core.frame.DataFrame'>
+Index: 11 entries, Charles Clay to Danny Woodhead
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      11 non-null int64
+(Fantasy, Fan Pts)             11 non-null float64
+(Passing, Inc)                 11 non-null int64
+(Rushing, Yds)                 11 non-null int64
+(Receiving, TD)                11 non-null int64
+(Return, Int)                  11 non-null int64
+(Misc, Att)                    11 non-null int64
+(Fumbles, Yds)                 11 non-null int64
+(Unnamed: 9_level_0, TD)       11 non-null int64
+(Unnamed: 10_level_0, Tgt)     11 non-null int64
+(Unnamed: 11_level_0, Rec)     11 non-null int64
+(Unnamed: 12_level_0, Yds)     11 non-null int64
+(Unnamed: 13_level_0, TD)      11 non-null int64
+(Unnamed: 14_level_0, Yds)     11 non-null int64
+(Unnamed: 15_level_0, TD)      11 non-null int64
+(Unnamed: 16_level_0, 2PT)     11 non-null int64
+(Unnamed: 17_level_0, Tot)     11 non-null int64
+(Unnamed: 18_level_0, Lost)    11 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.6+ KB
+Index: Index(['Charles Clay', 'Tevin Coleman', 'Larry Fitzgerald', 'Devin Funchess',
+       'Rob Gronkowski', 'T.Y. Hilton', 'Julio Jones', 'Cam Newton',
+       'Adrian Peterson', 'Philip Rivers', 'Danny Woodhead'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                          Bye         ...                        Lost
+Charles Clay                      6         ...                           0
+Tevin Coleman                     5         ...                           0
+Larry Fitzgerald                  8         ...                           1
+Devin Funchess                   11         ...                           0
+Rob Gronkowski                    9         ...                           0
+T.Y. Hilton                      11         ...                           1
+Julio Jones                       5         ...                           0
+Cam Newton                       11         ...                           1
+Adrian Peterson                   8         ...                           2
+Philip Rivers                     9         ...                           1
+Danny Woodhead                   10         ...                           0
+
+[11 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Jake Elliott to Jake Elliott
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Jake Elliott'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+             Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                      Bye         ...                        Made
+Jake Elliott                 10         ...                          39
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 10 entries, Preston Brown to Vince Williams
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           10 non-null int64
+(Fantasy, Fan Pts)                  10 non-null float64
+(Return, Yds)                       10 non-null int64
+(Tackles, TD)                       10 non-null int64
+(Misc, Tack Solo)                   10 non-null int64
+(Turnovers, Tack Ast)               10 non-null int64
+(TD, TFL)                           10 non-null int64
+(Unnamed: 8_level_0, Sack)          10 non-null float64
+(Unnamed: 9_level_0, Safe)          10 non-null int64
+(Unnamed: 10_level_0, Pass Def)     10 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     10 non-null int64
+(Unnamed: 12_level_0, Int)          10 non-null int64
+(Unnamed: 13_level_0, Fum Force)    10 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      10 non-null int64
+(Unnamed: 15_level_0, TD)           10 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.2+ KB
+Index: Index(['Preston Brown', 'Aaron Donald', 'Trey Flowers', 'Myles Garrett',
+       'Casey Hayward', 'Reshad Jones', 'Logan Ryan', 'Harrison Smith',
+       'Telvin Smith', 'Vince Williams'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+               Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                        Bye         ...                          TD
+Preston Brown                   6         ...                           0
+Aaron Donald                    8         ...                           0
+Trey Flowers                    9         ...                           0
+Myles Garrett                   9         ...                           0
+Casey Hayward                   9         ...                           0
+Reshad Jones                    1         ...                           2
+Logan Ryan                      8         ...                           0
+Harrison Smith                  9         ...                           0
+Telvin Smith                    8         ...                           2
+Vince Williams                  9         ...                           0
+
+[10 rows x 15 columns]
+Opening team_pages/team4.htm
+Found team name: Frank Drebin
+<class 'pandas.core.frame.DataFrame'>
+Index: 11 entries, Ameer Abdullah to Jason Witten
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      11 non-null int64
+(Fantasy, Fan Pts)             11 non-null float64
+(Passing, Inc)                 11 non-null int64
+(Rushing, Yds)                 11 non-null int64
+(Receiving, TD)                11 non-null int64
+(Return, Int)                  11 non-null int64
+(Misc, Att)                    11 non-null int64
+(Fumbles, Yds)                 11 non-null int64
+(Unnamed: 9_level_0, TD)       11 non-null int64
+(Unnamed: 10_level_0, Tgt)     11 non-null int64
+(Unnamed: 11_level_0, Rec)     11 non-null int64
+(Unnamed: 12_level_0, Yds)     11 non-null int64
+(Unnamed: 13_level_0, TD)      11 non-null int64
+(Unnamed: 14_level_0, Yds)     11 non-null int64
+(Unnamed: 15_level_0, TD)      11 non-null int64
+(Unnamed: 16_level_0, 2PT)     11 non-null int64
+(Unnamed: 17_level_0, Tot)     11 non-null int64
+(Unnamed: 18_level_0, Lost)    11 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.6+ KB
+Index: Index(['Ameer Abdullah', 'Kelvin Benjamin', 'Dez Bryant', 'Alex Collins',
+       'Ezekiel Elliott', 'Duke Johnson Jr.', 'Tyler Lockett', 'Rod Smith',
+       'Deshaun Watson', 'Russell Wilson', 'Jason Witten'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                          Bye         ...                        Lost
+Ameer Abdullah                    7         ...                           1
+Kelvin Benjamin                   6         ...                           0
+Dez Bryant                        6         ...                           1
+Alex Collins                     10         ...                           2
+Ezekiel Elliott                   6         ...                           1
+Duke Johnson Jr.                  9         ...                           2
+Tyler Lockett                     6         ...                           0
+Rod Smith                         6         ...                           0
+Deshaun Watson                    7         ...                           1
+Russell Wilson                    6         ...                           3
+Jason Witten                      6         ...                           1
+
+[11 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 2 entries, Dan Bailey to Kai Forbath
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       2 non-null int64
+(Fantasy, Fan Pts)              2 non-null float64
+(Field Goals Made, 0-19)        2 non-null int64
+(Field Goals Missed, 20-29)     2 non-null int64
+(PAT, 30-39)                    2 non-null int64
+(Unnamed: 6_level_0, 40-49)     2 non-null int64
+(Unnamed: 7_level_0, 50+)       2 non-null int64
+(Unnamed: 8_level_0, 0-19)      2 non-null int64
+(Unnamed: 9_level_0, 20-29)     2 non-null int64
+(Unnamed: 10_level_0, 30-39)    2 non-null int64
+(Unnamed: 11_level_0, Made)     2 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 192.0+ bytes
+Index: Index(['Dan Bailey', 'Kai Forbath'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+            Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Dan Bailey                   6         ...                          26
+Kai Forbath                  9         ...                          34
+
+[2 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 9 entries, Robert Alford to Anthony Zettel
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           9 non-null int64
+(Fantasy, Fan Pts)                  9 non-null float64
+(Return, Yds)                       9 non-null int64
+(Tackles, TD)                       9 non-null int64
+(Misc, Tack Solo)                   9 non-null int64
+(Turnovers, Tack Ast)               9 non-null int64
+(TD, TFL)                           9 non-null int64
+(Unnamed: 8_level_0, Sack)          9 non-null float64
+(Unnamed: 9_level_0, Safe)          9 non-null int64
+(Unnamed: 10_level_0, Pass Def)     9 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     9 non-null int64
+(Unnamed: 12_level_0, Int)          9 non-null int64
+(Unnamed: 13_level_0, Fum Force)    9 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      9 non-null int64
+(Unnamed: 15_level_0, TD)           9 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.1+ KB
+Index: Index(['Robert Alford', 'Lavonte David', 'Dante Fowler Jr.', 'Brandon Graham',
+       'Adoree Jackson', 'Eric Kendricks', 'Glover Quin', 'Jalen Ramsey',
+       'Anthony Zettel'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Robert Alford                     5         ...                           0
+Lavonte David                     1         ...                           1
+Dante Fowler Jr.                  8         ...                           1
+Brandon Graham                   10         ...                           1
+Adoree Jackson                    8         ...                           0
+Eric Kendricks                    9         ...                           1
+Glover Quin                       7         ...                           1
+Jalen Ramsey                      8         ...                           0
+Anthony Zettel                    7         ...                           0
+
+[9 rows x 15 columns]
+Opening team_pages/team5.htm
+Found team name: Fuhonky
+<class 'pandas.core.frame.DataFrame'>
+Index: 12 entries, Jacoby Brissett to Delanie Walker
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      12 non-null int64
+(Fantasy, Fan Pts)             12 non-null float64
+(Passing, Inc)                 12 non-null int64
+(Rushing, Yds)                 12 non-null int64
+(Receiving, TD)                12 non-null int64
+(Return, Int)                  12 non-null int64
+(Misc, Att)                    12 non-null int64
+(Fumbles, Yds)                 12 non-null int64
+(Unnamed: 9_level_0, TD)       12 non-null int64
+(Unnamed: 10_level_0, Tgt)     12 non-null int64
+(Unnamed: 11_level_0, Rec)     12 non-null int64
+(Unnamed: 12_level_0, Yds)     12 non-null int64
+(Unnamed: 13_level_0, TD)      12 non-null int64
+(Unnamed: 14_level_0, Yds)     12 non-null int64
+(Unnamed: 15_level_0, TD)      12 non-null int64
+(Unnamed: 16_level_0, 2PT)     12 non-null int64
+(Unnamed: 17_level_0, Tot)     12 non-null int64
+(Unnamed: 18_level_0, Lost)    12 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.8+ KB
+Index: Index(['Jacoby Brissett', 'Antonio Brown', 'Dalvin Cook', 'Jimmy Garoppolo',
+       'Derrick Henry', 'Kareem Hunt', 'Rishard Matthews', 'Jerick McKinnon',
+       'Seth Roberts', 'Ben Roethlisberger', 'Willie Snead IV',
+       'Delanie Walker'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                   Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                            Bye         ...                        Lost
+Jacoby Brissett                    11         ...                           3
+Antonio Brown                       9         ...                           0
+Dalvin Cook                         9         ...                           1
+Jimmy Garoppolo                    11         ...                           0
+Derrick Henry                       8         ...                           0
+Kareem Hunt                        10         ...                           1
+Rishard Matthews                    8         ...                           0
+Jerick McKinnon                    11         ...                           2
+Seth Roberts                       10         ...                           2
+Ben Roethlisberger                  9         ...                           1
+Willie Snead IV                    10         ...                           1
+Delanie Walker                      8         ...                           2
+
+[12 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Josh Lambo to Josh Lambo
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Josh Lambo'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+           Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                    Bye         ...                        Made
+Josh Lambo                  8         ...                          22
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 9 entries, Kwon Alexander  to Trae Waynes
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           9 non-null int64
+(Fantasy, Fan Pts)                  9 non-null float64
+(Return, Yds)                       9 non-null int64
+(Tackles, TD)                       9 non-null int64
+(Misc, Tack Solo)                   9 non-null int64
+(Turnovers, Tack Ast)               9 non-null int64
+(TD, TFL)                           9 non-null int64
+(Unnamed: 8_level_0, Sack)          9 non-null float64
+(Unnamed: 9_level_0, Safe)          9 non-null int64
+(Unnamed: 10_level_0, Pass Def)     9 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     9 non-null int64
+(Unnamed: 12_level_0, Int)          9 non-null int64
+(Unnamed: 13_level_0, Fum Force)    9 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      9 non-null int64
+(Unnamed: 15_level_0, TD)           9 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.1+ KB
+Index: Index(['Kwon Alexander', 'Antoine Bethea', 'Jon Bostic', 'James Bradberry',
+       'Calais Campbell', 'Demario Davis', 'Malik Jackson', 'AShawn Robinson',
+       'Trae Waynes'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                         Bye         ...                          TD
+Kwon Alexander                   1         ...                           0
+Antoine Bethea                   8         ...                           0
+Jon Bostic                       9         ...                           0
+James Bradberry                 11         ...                           0
+Calais Campbell                  8         ...                           1
+Demario Davis                    5         ...                           0
+Malik Jackson                    8         ...                           0
+AShawn Robinson                  7         ...                           1
+Trae Waynes                      9         ...                           0
+
+[9 rows x 15 columns]
+Opening team_pages/team6.htm
+Found team name: Iraq Lobster
+<class 'pandas.core.frame.DataFrame'>
+Index: 9 entries, Jamison Crowder to Theo Riddick
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      9 non-null int64
+(Fantasy, Fan Pts)             9 non-null float64
+(Passing, Inc)                 9 non-null object
+(Rushing, Yds)                 9 non-null object
+(Receiving, TD)                9 non-null object
+(Return, Int)                  9 non-null object
+(Misc, Att)                    9 non-null object
+(Fumbles, Yds)                 9 non-null object
+(Unnamed: 9_level_0, TD)       9 non-null object
+(Unnamed: 10_level_0, Tgt)     9 non-null object
+(Unnamed: 11_level_0, Rec)     9 non-null object
+(Unnamed: 12_level_0, Yds)     9 non-null object
+(Unnamed: 13_level_0, TD)      9 non-null object
+(Unnamed: 14_level_0, Yds)     9 non-null object
+(Unnamed: 15_level_0, TD)      9 non-null object
+(Unnamed: 16_level_0, 2PT)     9 non-null object
+(Unnamed: 17_level_0, Tot)     9 non-null object
+(Unnamed: 18_level_0, Lost)    9 non-null object
+dtypes: float64(1), int64(1), object(16)
+memory usage: 1.3+ KB
+Index: Index(['Jamison Crowder', 'Jack Doyle', 'Ted Ginn Jr.', 'Jared Goff',
+       'Alshon Jeffery', 'Travis Kelce', 'Andrew Luck', 'DeMarco Murray',
+       'Theo Riddick'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                         Bye         ...                        Lost
+Jamison Crowder                  5         ...                           3
+Jack Doyle                      11         ...                           2
+Ted Ginn Jr.                     5         ...                           0
+Jared Goff                       8         ...                           3
+Alshon Jeffery                  10         ...                           0
+Travis Kelce                    10         ...                           0
+Andrew Luck                     11         ...                           -
+DeMarco Murray                   8         ...                           1
+Theo Riddick                     7         ...                           1
+
+[9 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Stephen Gostkowski to Stephen Gostkowski
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Stephen Gostkowski'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+                   Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                            Bye         ...                        Made
+Stephen Gostkowski                  9         ...                          45
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 11 entries, Jahleel Addae to Wesley Woodyard
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           11 non-null int64
+(Fantasy, Fan Pts)                  11 non-null float64
+(Return, Yds)                       11 non-null int64
+(Tackles, TD)                       11 non-null int64
+(Misc, Tack Solo)                   11 non-null int64
+(Turnovers, Tack Ast)               11 non-null int64
+(TD, TFL)                           11 non-null int64
+(Unnamed: 8_level_0, Sack)          11 non-null float64
+(Unnamed: 9_level_0, Safe)          11 non-null int64
+(Unnamed: 10_level_0, Pass Def)     11 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     11 non-null int64
+(Unnamed: 12_level_0, Int)          11 non-null int64
+(Unnamed: 13_level_0, Fum Force)    11 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      11 non-null int64
+(Unnamed: 15_level_0, TD)           11 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.4+ KB
+Index: Index(['Jahleel Addae', 'Landon Collins', 'Fletcher Cox', 'Everson Griffen',
+       'Vernon Hargreaves III', 'Xavien Howard', 'Grady Jarrett',
+       'C.J. Mosley', 'Jabaal Sheard', 'Desmond Trufant', 'Wesley Woodyard'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                      Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                               Bye         ...                          TD
+Jahleel Addae                          9         ...                           0
+Landon Collins                         8         ...                           0
+Fletcher Cox                          10         ...                           1
+Everson Griffen                        9         ...                           0
+Vernon Hargreaves III                  1         ...                           0
+Xavien Howard                          1         ...                           1
+Grady Jarrett                          5         ...                           0
+C.J. Mosley                           10         ...                           1
+Jabaal Sheard                         11         ...                           0
+Desmond Trufant                        5         ...                           1
+Wesley Woodyard                        8         ...                           1
+
+[11 rows x 15 columns]
+Opening team_pages/team7.htm
+Found team name: Mehs Can Eat A Dick!
+<class 'pandas.core.frame.DataFrame'>
+Index: 11 entries, Nelson Agholor to Dede Westbrook
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      11 non-null int64
+(Fantasy, Fan Pts)             11 non-null float64
+(Passing, Inc)                 11 non-null int64
+(Rushing, Yds)                 11 non-null int64
+(Receiving, TD)                11 non-null int64
+(Return, Int)                  11 non-null int64
+(Misc, Att)                    11 non-null int64
+(Fumbles, Yds)                 11 non-null int64
+(Unnamed: 9_level_0, TD)       11 non-null int64
+(Unnamed: 10_level_0, Tgt)     11 non-null int64
+(Unnamed: 11_level_0, Rec)     11 non-null int64
+(Unnamed: 12_level_0, Yds)     11 non-null int64
+(Unnamed: 13_level_0, TD)      11 non-null int64
+(Unnamed: 14_level_0, Yds)     11 non-null int64
+(Unnamed: 15_level_0, TD)      11 non-null int64
+(Unnamed: 16_level_0, 2PT)     11 non-null int64
+(Unnamed: 17_level_0, Tot)     11 non-null int64
+(Unnamed: 18_level_0, Lost)    11 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.6+ KB
+Index: Index(['Nelson Agholor', 'Odell Beckham Jr.', 'Tom Brady', 'Kenyan Drake',
+       'Evan Engram', 'Todd Gurley II', 'Aaron Jones', 'Doug Martin',
+       'Alfred Morris', 'Mohamed Sanu', 'Dede Westbrook'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                  Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                           Bye         ...                        Lost
+Nelson Agholor                    10         ...                           0
+Odell Beckham Jr.                  8         ...                           0
+Tom Brady                          9         ...                           3
+Kenyan Drake                       1         ...                           2
+Evan Engram                        8         ...                           0
+Todd Gurley II                     8         ...                           2
+Aaron Jones                        8         ...                           0
+Doug Martin                       10         ...                           1
+Alfred Morris                      6         ...                           0
+Mohamed Sanu                       5         ...                           0
+Dede Westbrook                     8         ...                           0
+
+[11 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Wil Lutz to Wil Lutz
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Wil Lutz'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+         Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                  Bye         ...                        Made
+Wil Lutz                  5         ...                          49
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 10 entries, Jamal Adams to Eric Weddle
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           10 non-null int64
+(Fantasy, Fan Pts)                  10 non-null float64
+(Return, Yds)                       10 non-null int64
+(Tackles, TD)                       10 non-null int64
+(Misc, Tack Solo)                   10 non-null int64
+(Turnovers, Tack Ast)               10 non-null int64
+(TD, TFL)                           10 non-null int64
+(Unnamed: 8_level_0, Sack)          10 non-null float64
+(Unnamed: 9_level_0, Safe)          10 non-null int64
+(Unnamed: 10_level_0, Pass Def)     10 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     10 non-null int64
+(Unnamed: 12_level_0, Int)          10 non-null int64
+(Unnamed: 13_level_0, Fum Force)    10 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      10 non-null int64
+(Unnamed: 15_level_0, TD)           10 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.2+ KB
+Index: Index(['Jamal Adams', 'Nigel Bradham', 'Kenny Clark', 'Reuben Foster',
+       'Dre Kirkpatrick', 'Blake Martinez', 'Yannick Ngakoue', 'Jordan Poyer',
+       'D.J. Swearinger', 'Eric Weddle'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                         Bye         ...                          TD
+Jamal Adams                     11         ...                           0
+Nigel Bradham                   10         ...                           1
+Kenny Clark                      8         ...                           0
+Reuben Foster                   11         ...                           0
+Dre Kirkpatrick                  6         ...                           0
+Blake Martinez                   8         ...                           0
+Yannick Ngakoue                  8         ...                           1
+Jordan Poyer                     6         ...                           1
+D.J. Swearinger                  5         ...                           0
+Eric Weddle                     10         ...                           1
+
+[10 rows x 15 columns]
+Opening team_pages/team8.htm
+Found team name: Pelosi's Pinkos
+<class 'pandas.core.frame.DataFrame'>
+Index: 12 entries, Isaiah Crowell to Jamaal Williams
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      12 non-null int64
+(Fantasy, Fan Pts)             12 non-null float64
+(Passing, Inc)                 12 non-null int64
+(Rushing, Yds)                 12 non-null int64
+(Receiving, TD)                12 non-null int64
+(Return, Int)                  12 non-null int64
+(Misc, Att)                    12 non-null int64
+(Fumbles, Yds)                 12 non-null int64
+(Unnamed: 9_level_0, TD)       12 non-null int64
+(Unnamed: 10_level_0, Tgt)     12 non-null int64
+(Unnamed: 11_level_0, Rec)     12 non-null int64
+(Unnamed: 12_level_0, Yds)     12 non-null int64
+(Unnamed: 13_level_0, TD)      12 non-null int64
+(Unnamed: 14_level_0, Yds)     12 non-null int64
+(Unnamed: 15_level_0, TD)      12 non-null int64
+(Unnamed: 16_level_0, 2PT)     12 non-null int64
+(Unnamed: 17_level_0, Tot)     12 non-null int64
+(Unnamed: 18_level_0, Lost)    12 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.8+ KB
+Index: Index(['Isaiah Crowell', 'Orleans Darkwa', 'Nick Foles', 'Melvin Gordon',
+       'A.J. Green', 'Hunter Henry', 'Jarvis Landry', 'Marcus Mariota',
+       'Jordan Reed', 'Demaryius Thomas', 'Benjamin Watson',
+       'Jamaal Williams'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                          Bye         ...                        Lost
+Isaiah Crowell                   11         ...                           1
+Orleans Darkwa                    8         ...                           0
+Nick Foles                       10         ...                           2
+Melvin Gordon                     9         ...                           0
+A.J. Green                        6         ...                           2
+Hunter Henry                      9         ...                           0
+Jarvis Landry                     9         ...                           2
+Marcus Mariota                    8         ...                           1
+Jordan Reed                       5         ...                           0
+Demaryius Thomas                  5         ...                           1
+Benjamin Watson                   5         ...                           0
+Jamaal Williams                   8         ...                           0
+
+[12 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Chris Boswell to Chris Boswell
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Chris Boswell'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+              Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                       Bye         ...                        Made
+Chris Boswell                  9         ...                          37
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 9 entries, Adrian Amos to Ryan Smith
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           9 non-null int64
+(Fantasy, Fan Pts)                  9 non-null float64
+(Return, Yds)                       9 non-null int64
+(Tackles, TD)                       9 non-null int64
+(Misc, Tack Solo)                   9 non-null int64
+(Turnovers, Tack Ast)               9 non-null int64
+(TD, TFL)                           9 non-null int64
+(Unnamed: 8_level_0, Sack)          9 non-null float64
+(Unnamed: 9_level_0, Safe)          9 non-null int64
+(Unnamed: 10_level_0, Pass Def)     9 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     9 non-null int64
+(Unnamed: 12_level_0, Int)          9 non-null int64
+(Unnamed: 13_level_0, Fum Force)    9 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      9 non-null int64
+(Unnamed: 15_level_0, TD)           9 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.1+ KB
+Index: Index(['Adrian Amos', 'NaVorro Bowman', 'DeForest Buckner', 'Barry Church',
+       'Jeff Heath', 'Trumaine Johnson', 'Cameron Jordan', 'Christian Kirksey',
+       'Ryan Smith'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                  Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                           Bye         ...                          TD
+Adrian Amos                        9         ...                           1
+NaVorro Bowman                    10         ...                           0
+DeForest Buckner                  11         ...                           0
+Barry Church                       8         ...                           1
+Jeff Heath                         6         ...                           0
+Trumaine Johnson                  11         ...                           1
+Cameron Jordan                     5         ...                           1
+Christian Kirksey                  9         ...                           0
+Ryan Smith                         1         ...                           0
+
+[9 rows x 15 columns]
+Opening team_pages/team9.htm
+Found team name: SAVIN RYANS PRIVATES
+<class 'pandas.core.frame.DataFrame'>
+Index: 10 entries, Tyreek Hill  to Jameis Winston
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      10 non-null int64
+(Fantasy, Fan Pts)             10 non-null float64
+(Passing, Inc)                 10 non-null int64
+(Rushing, Yds)                 10 non-null int64
+(Receiving, TD)                10 non-null int64
+(Return, Int)                  10 non-null int64
+(Misc, Att)                    10 non-null int64
+(Fumbles, Yds)                 10 non-null int64
+(Unnamed: 9_level_0, TD)       10 non-null int64
+(Unnamed: 10_level_0, Tgt)     10 non-null int64
+(Unnamed: 11_level_0, Rec)     10 non-null int64
+(Unnamed: 12_level_0, Yds)     10 non-null int64
+(Unnamed: 13_level_0, TD)      10 non-null int64
+(Unnamed: 14_level_0, Yds)     10 non-null int64
+(Unnamed: 15_level_0, TD)      10 non-null int64
+(Unnamed: 16_level_0, 2PT)     10 non-null int64
+(Unnamed: 17_level_0, Tot)     10 non-null int64
+(Unnamed: 18_level_0, Lost)    10 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.5+ KB
+Index: Index(['Tyreek Hill', 'Jordan Howard', 'DeSean Jackson', 'Jermaine Kearse',
+       'Dion Lewis', 'Kyle Rudolph', 'Matt Ryan', 'Golden Tate',
+       'Chris Thompson', 'Jameis Winston'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                         Bye         ...                        Lost
+Tyreek Hill                     10         ...                           0
+Jordan Howard                    9         ...                           1
+DeSean Jackson                   1         ...                           0
+Jermaine Kearse                 11         ...                           0
+Dion Lewis                       8         ...                           0
+Kyle Rudolph                     9         ...                           0
+Matt Ryan                        5         ...                           3
+Golden Tate                      7         ...                           1
+Chris Thompson                   5         ...                           1
+Jameis Winston                   1         ...                           7
+
+[10 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Ryan Succop to Ryan Succop
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Ryan Succop'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+            Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Ryan Succop                  8         ...                          31
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 11 entries, Mark Barron to Olivier Vernon
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           11 non-null int64
+(Fantasy, Fan Pts)                  11 non-null float64
+(Return, Yds)                       11 non-null int64
+(Tackles, TD)                       11 non-null int64
+(Misc, Tack Solo)                   11 non-null int64
+(Turnovers, Tack Ast)               11 non-null int64
+(TD, TFL)                           11 non-null int64
+(Unnamed: 8_level_0, Sack)          11 non-null float64
+(Unnamed: 9_level_0, Safe)          11 non-null int64
+(Unnamed: 10_level_0, Pass Def)     11 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     11 non-null int64
+(Unnamed: 12_level_0, Int)          11 non-null int64
+(Unnamed: 13_level_0, Fum Force)    11 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      11 non-null int64
+(Unnamed: 15_level_0, TD)           11 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.4+ KB
+Index: Index(['Mark Barron', 'Vontaze Burfict', 'Ha Ha ClintonDix', 'Ronald Darby',
+       'Darqueze Dennard', 'Danielle Hunter', 'Chris Jones', 'Desmond King',
+       'T.J. McDonald', 'Joe Schobert', 'Olivier Vernon'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Mark Barron                       8         ...                           0
+Vontaze Burfict                   6         ...                           0
+Ha Ha ClintonDix                  8         ...                           0
+Ronald Darby                     10         ...                           0
+Darqueze Dennard                  6         ...                           1
+Danielle Hunter                   9         ...                           0
+Chris Jones                      10         ...                           0
+Desmond King                      9         ...                           1
+T.J. McDonald                     1         ...                           0
+Joe Schobert                      9         ...                           0
+Olivier Vernon                    8         ...                           0
+
+[11 rows x 15 columns]
+Opening team_pages/team10.htm
+Found team name: Show Me Your TDs
+<class 'pandas.core.frame.DataFrame'>
+Index: 12 entries, Davante Adams to Carson Wentz
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      12 non-null int64
+(Fantasy, Fan Pts)             12 non-null float64
+(Passing, Inc)                 12 non-null int64
+(Rushing, Yds)                 12 non-null int64
+(Receiving, TD)                12 non-null int64
+(Return, Int)                  12 non-null int64
+(Misc, Att)                    12 non-null int64
+(Fumbles, Yds)                 12 non-null int64
+(Unnamed: 9_level_0, TD)       12 non-null int64
+(Unnamed: 10_level_0, Tgt)     12 non-null int64
+(Unnamed: 11_level_0, Rec)     12 non-null int64
+(Unnamed: 12_level_0, Yds)     12 non-null int64
+(Unnamed: 13_level_0, TD)      12 non-null int64
+(Unnamed: 14_level_0, Yds)     12 non-null int64
+(Unnamed: 15_level_0, TD)      12 non-null int64
+(Unnamed: 16_level_0, 2PT)     12 non-null int64
+(Unnamed: 17_level_0, Tot)     12 non-null int64
+(Unnamed: 18_level_0, Lost)    12 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.8+ KB
+Index: Index(['Davante Adams', 'Jay Ajayi', 'LeVeon Bell', 'Kirk Cousins',
+       'Michael Crabtree', 'Vernon Davis', 'Eric Ebron', 'Josh Gordon',
+       'Christian McCaffrey', 'Emmanuel Sanders', 'Adam Thielen',
+       'Carson Wentz'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                    Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                             Bye         ...                        Lost
+Davante Adams                        8         ...                           0
+Jay Ajayi                           10         ...                           2
+LeVeon Bell                          9         ...                           2
+Kirk Cousins                         9         ...                           5
+Michael Crabtree                    10         ...                           0
+Vernon Davis                         5         ...                           2
+Eric Ebron                          11         ...                           1
+Josh Gordon                          9         ...                           0
+Christian McCaffrey                 11         ...                           1
+Emmanuel Sanders                     5         ...                           0
+Adam Thielen                         9         ...                           2
+Carson Wentz                        10         ...                           3
+
+[12 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Matt Prater to Matt Prater
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Matt Prater'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+            Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Matt Prater                  7         ...                          40
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 8 entries, Budda Baker to Ndamukong Suh 
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           8 non-null int64
+(Fantasy, Fan Pts)                  8 non-null float64
+(Return, Yds)                       8 non-null int64
+(Tackles, TD)                       8 non-null int64
+(Misc, Tack Solo)                   8 non-null int64
+(Turnovers, Tack Ast)               8 non-null int64
+(TD, TFL)                           8 non-null int64
+(Unnamed: 8_level_0, Sack)          8 non-null float64
+(Unnamed: 9_level_0, Safe)          8 non-null int64
+(Unnamed: 10_level_0, Pass Def)     8 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     8 non-null int64
+(Unnamed: 12_level_0, Int)          8 non-null int64
+(Unnamed: 13_level_0, Fum Force)    8 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      8 non-null int64
+(Unnamed: 15_level_0, TD)           8 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.0+ KB
+Index: Index(['Budda Baker', 'Jadeveon Clowney', 'Sean Davis', 'Khalil Mack',
+       'Jason McCourty', 'Antonio Morrison', 'Josh Norman', 'Ndamukong Suh'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                 Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Budda Baker                       8         ...                           0
+Jadeveon Clowney                  7         ...                           1
+Sean Davis                        9         ...                           0
+Khalil Mack                      10         ...                           0
+Jason McCourty                    9         ...                           1
+Antonio Morrison                 11         ...                           0
+Josh Norman                       5         ...                           0
+Ndamukong Suh                     8         ...                           0
+
+[8 rows x 15 columns]
+Opening team_pages/team11.htm
+Found team name: The Night King
+<class 'pandas.core.frame.DataFrame'>
+Index: 11 entries, Stefon Diggs to Mike Wallace
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      11 non-null int64
+(Fantasy, Fan Pts)             11 non-null float64
+(Passing, Inc)                 11 non-null int64
+(Rushing, Yds)                 11 non-null int64
+(Receiving, TD)                11 non-null int64
+(Return, Int)                  11 non-null int64
+(Misc, Att)                    11 non-null int64
+(Fumbles, Yds)                 11 non-null int64
+(Unnamed: 9_level_0, TD)       11 non-null int64
+(Unnamed: 10_level_0, Tgt)     11 non-null int64
+(Unnamed: 11_level_0, Rec)     11 non-null int64
+(Unnamed: 12_level_0, Yds)     11 non-null int64
+(Unnamed: 13_level_0, TD)      11 non-null int64
+(Unnamed: 14_level_0, Yds)     11 non-null int64
+(Unnamed: 15_level_0, TD)      11 non-null int64
+(Unnamed: 16_level_0, 2PT)     11 non-null int64
+(Unnamed: 17_level_0, Tot)     11 non-null int64
+(Unnamed: 18_level_0, Lost)    11 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.6+ KB
+Index: Index(['Stefon Diggs', 'Zach Ertz', 'Mike Evans', 'Joe Flacco',
+       'Leonard Fournette', 'Chris Ivory', 'Marvin Jones Jr.', 'Samaje Perine',
+       'Bilal Powell', 'Aaron Rodgers', 'Mike Wallace'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                  Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                           Bye         ...                        Lost
+Stefon Diggs                       9         ...                           0
+Zach Ertz                         10         ...                           1
+Mike Evans                         1         ...                           0
+Joe Flacco                        10         ...                           0
+Leonard Fournette                  8         ...                           0
+Chris Ivory                        6         ...                           2
+Marvin Jones Jr.                   7         ...                           0
+Samaje Perine                      5         ...                           2
+Bilal Powell                      11         ...                           1
+Aaron Rodgers                      8         ...                           1
+Mike Wallace                      10         ...                           0
+
+[11 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Justin Tucker to Justin Tucker
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Justin Tucker'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+              Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                       Bye         ...                        Made
+Justin Tucker                 10         ...                          39
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 9 entries, Malcolm Butler to Bobby Wagner 
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           9 non-null int64
+(Fantasy, Fan Pts)                  9 non-null float64
+(Return, Yds)                       9 non-null int64
+(Tackles, TD)                       9 non-null int64
+(Misc, Tack Solo)                   9 non-null int64
+(Turnovers, Tack Ast)               9 non-null int64
+(TD, TFL)                           9 non-null int64
+(Unnamed: 8_level_0, Sack)          9 non-null float64
+(Unnamed: 9_level_0, Safe)          9 non-null int64
+(Unnamed: 10_level_0, Pass Def)     9 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     9 non-null int64
+(Unnamed: 12_level_0, Int)          9 non-null int64
+(Unnamed: 13_level_0, Fum Force)    9 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      9 non-null int64
+(Unnamed: 15_level_0, TD)           9 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.1+ KB
+Index: Index(['Malcolm Butler', 'Mike Daniels', 'Matthias Farley', 'Melvin Ingram',
+       'Chandler Jones', 'Deion Jones', 'Linval Joseph', 'Daniel Sorensen',
+       'Bobby Wagner'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                         Bye         ...                          TD
+Malcolm Butler                   8         ...                           0
+Mike Daniels                     8         ...                           0
+Matthias Farley                 11         ...                           0
+Melvin Ingram                    9         ...                           1
+Chandler Jones                   8         ...                           0
+Deion Jones                      5         ...                           0
+Linval Joseph                    9         ...                           0
+Daniel Sorensen                 10         ...                           0
+Bobby Wagner                     6         ...                           1
+
+[9 rows x 15 columns]
+Opening team_pages/team12.htm
+Found team name: Yo Soy El Nino!
+<class 'pandas.core.frame.DataFrame'>
+Index: 11 entries, Robby Anderson to Alex Smith
+Data columns (total 18 columns):
+(Unnamed: 1_level_0, Bye)      11 non-null int64
+(Fantasy, Fan Pts)             11 non-null float64
+(Passing, Inc)                 11 non-null int64
+(Rushing, Yds)                 11 non-null int64
+(Receiving, TD)                11 non-null int64
+(Return, Int)                  11 non-null int64
+(Misc, Att)                    11 non-null int64
+(Fumbles, Yds)                 11 non-null int64
+(Unnamed: 9_level_0, TD)       11 non-null int64
+(Unnamed: 10_level_0, Tgt)     11 non-null int64
+(Unnamed: 11_level_0, Rec)     11 non-null int64
+(Unnamed: 12_level_0, Yds)     11 non-null int64
+(Unnamed: 13_level_0, TD)      11 non-null int64
+(Unnamed: 14_level_0, Yds)     11 non-null int64
+(Unnamed: 15_level_0, TD)      11 non-null int64
+(Unnamed: 16_level_0, 2PT)     11 non-null int64
+(Unnamed: 17_level_0, Tot)     11 non-null int64
+(Unnamed: 18_level_0, Lost)    11 non-null int64
+dtypes: float64(1), int64(17)
+memory usage: 1.6+ KB
+Index: Index(['Robby Anderson', 'Rex Burkhead', 'Jared Cook', 'Case Keenum',
+       'Cooper Kupp', 'LeSean McCoy', 'Lamar Miller', 'Jordy Nelson',
+       'DeVante Parker', 'Paul Richardson Jr.', 'Alex Smith'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Fumbles', 'Misc', 'Passing', 'Receiving', 'Return', 'Rushing', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 16_level_0', 'Unnamed: 17_level_0', 'Unnamed: 18_level_0', 'Unnamed: 1_level_0', 'Unnamed: 9_level_0'], ['2PT', 'Att', 'Bye', 'Fan Pts', 'Inc', 'Int', 'Lost', 'Rec', 'TD', 'Tgt', 'Tot', 'Yds']],
+           labels=[[16, 0, 3, 6, 4, 5, 2, 1, 17, 7, 8, 9, 10, 11, 12, 13, 14, 15], [2, 3, 4, 11, 8, 5, 1, 11, 8, 9, 7, 11, 8, 11, 8, 0, 10, 6]],
+           names=[None, 'Player'])
+                    Unnamed: 1_level_0         ...         Unnamed: 18_level_0
+Player                             Bye         ...                        Lost
+Robby Anderson                      11         ...                           0
+Rex Burkhead                         9         ...                           0
+Jared Cook                          10         ...                           1
+Case Keenum                          5         ...                           1
+Cooper Kupp                          8         ...                           1
+LeSean McCoy                         6         ...                           1
+Lamar Miller                         7         ...                           0
+Jordy Nelson                        10         ...                           0
+DeVante Parker                       1         ...                           0
+Paul Richardson Jr.                  5         ...                           0
+Alex Smith                           5         ...                           1
+
+[11 rows x 18 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 1 entries, Harrison Butker to Harrison Butker
+Data columns (total 11 columns):
+(Unnamed: 1_level_0, Bye)       1 non-null int64
+(Fantasy, Fan Pts)              1 non-null float64
+(Field Goals Made, 0-19)        1 non-null int64
+(Field Goals Missed, 20-29)     1 non-null int64
+(PAT, 30-39)                    1 non-null int64
+(Unnamed: 6_level_0, 40-49)     1 non-null int64
+(Unnamed: 7_level_0, 50+)       1 non-null int64
+(Unnamed: 8_level_0, 0-19)      1 non-null int64
+(Unnamed: 9_level_0, 20-29)     1 non-null int64
+(Unnamed: 10_level_0, 30-39)    1 non-null int64
+(Unnamed: 11_level_0, Made)     1 non-null int64
+dtypes: float64(1), int64(10)
+memory usage: 96.0+ bytes
+Index: Index(['Harrison Butker'], dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Field Goals Made', 'Field Goals Missed', 'PAT', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 1_level_0', 'Unnamed: 6_level_0', 'Unnamed: 7_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['0-19', '20-29', '30-39', '40-49', '50+', 'Bye', 'Fan Pts', 'Made']],
+           labels=[[6, 0, 1, 2, 3, 7, 8, 9, 10, 4, 5], [5, 6, 0, 1, 2, 3, 4, 0, 1, 2, 7]],
+           names=[None, 'Player'])
+                Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                         Bye         ...                        Made
+Harrison Butker                 10         ...                          28
+
+[1 rows x 11 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 9 entries, Tyvon Branch to Damarious Randall
+Data columns (total 15 columns):
+(Unnamed: 1_level_0, Bye)           9 non-null int64
+(Fantasy, Fan Pts)                  9 non-null float64
+(Return, Yds)                       9 non-null int64
+(Tackles, TD)                       9 non-null int64
+(Misc, Tack Solo)                   9 non-null int64
+(Turnovers, Tack Ast)               9 non-null int64
+(TD, TFL)                           9 non-null int64
+(Unnamed: 8_level_0, Sack)          9 non-null float64
+(Unnamed: 9_level_0, Safe)          9 non-null int64
+(Unnamed: 10_level_0, Pass Def)     9 non-null int64
+(Unnamed: 11_level_0, Blk Kick)     9 non-null int64
+(Unnamed: 12_level_0, Int)          9 non-null int64
+(Unnamed: 13_level_0, Fum Force)    9 non-null int64
+(Unnamed: 14_level_0, Fum Rec)      9 non-null int64
+(Unnamed: 15_level_0, TD)           9 non-null int64
+dtypes: float64(2), int64(13)
+memory usage: 1.1+ KB
+Index: Index(['Tyvon Branch', 'Zach Brown', 'Carlos Dunlap', 'Damon Harrison',
+       'Byron Jones', 'Tyrann Mathieu', 'Alec Ogletree', 'Marcus Peters',
+       'Damarious Randall'],
+      dtype='object')
+Columns: MultiIndex(levels=[['Fantasy', 'Misc', 'Return', 'TD', 'Tackles', 'Turnovers', 'Unnamed: 10_level_0', 'Unnamed: 11_level_0', 'Unnamed: 12_level_0', 'Unnamed: 13_level_0', 'Unnamed: 14_level_0', 'Unnamed: 15_level_0', 'Unnamed: 1_level_0', 'Unnamed: 8_level_0', 'Unnamed: 9_level_0'], ['Blk Kick', 'Bye', 'Fan Pts', 'Fum Force', 'Fum Rec', 'Int', 'Pass Def', 'Sack', 'Safe', 'TD', 'TFL', 'Tack Ast', 'Tack Solo', 'Yds']],
+           labels=[[12, 0, 2, 4, 1, 5, 3, 13, 14, 6, 7, 8, 9, 10, 11], [1, 2, 13, 9, 12, 11, 10, 7, 8, 6, 0, 5, 3, 4, 9]],
+           names=[None, 'Player'])
+                  Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                           Bye         ...                          TD
+Tyvon Branch                       8         ...                           0
+Zach Brown                         5         ...                           0
+Carlos Dunlap                      6         ...                           1
+Damon Harrison                     8         ...                           0
+Byron Jones                        6         ...                           1
+Tyrann Mathieu                     7         ...                           0
+Alec Ogletree                      8         ...                           1
+Marcus Peters                      8         ...                           1
+Damarious Randall                  9         ...                           1
+
+[9 rows x 15 columns]
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, LeSean McCoy to Jamaal Williams
+Data columns (total 3 columns):
+Yo Soy El Nino!    21 non-null float64
+Unnamed: 1         21 non-null object
+order              21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                    order
+LeSean McCoy            1
+Alec Ogletree          15
+Lamar Miller           29
+DeVante Parker         43
+Marcus Peters          57
+Johnathan Cyprien      71
+Martellus Bennett      85
+Derek Carr             99
+Sammy Watkins         113
+Byron Jones           127
+Jordy Nelson          141
+Zach Brown            155
+Benardrick McKinney   169
+Damon Harrison        183
+Michael Bennett       197
+Matt Bryant           211
+James White           225
+Jalen Ramsey          239
+Eli Manning           253
+Charles Sims          267
+Jamaal Williams       281
+{'Offense':                 (Unnamed: 1_level_0, Bye)  ...    order
+LeSean McCoy                            6  ...        1
+Lamar Miller                            7  ...       29
+Jordy Nelson                           10  ...      141
+DeVante Parker                          1  ...       43
+
+[4 rows x 19 columns], 'Kicker':                 Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                         Bye         ...                        Made
+Harrison Butker                 10         ...                          28
+
+[1 rows x 11 columns], 'Defense':                   Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                           Bye         ...                          TD
+Tyvon Branch                       8         ...                           0
+Zach Brown                         5         ...                           0
+Carlos Dunlap                      6         ...                           1
+Damon Harrison                     8         ...                           0
+Byron Jones                        6         ...                           1
+Tyrann Mathieu                     7         ...                           0
+Alec Ogletree                      8         ...                           1
+Marcus Peters                      8         ...                           1
+Damarious Randall                  9         ...                           1
+
+[9 rows x 15 columns], 'Defnese':                 (Unnamed: 1_level_0, Bye)  ...    order
+Zach Brown                              5  ...      155
+Damon Harrison                          8  ...      183
+Byron Jones                             6  ...      127
+Alec Ogletree                           8  ...       15
+Marcus Peters                           8  ...       57
+
+[5 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Ezekiel Elliott to Julius Thomas
+Data columns (total 3 columns):
+Frank Drebin    21 non-null float64
+Unnamed: 1      21 non-null object
+order           21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                 order
+Ezekiel Elliott      2
+Kelvin Benjamin     16
+Ameer Abdullah      30
+Russell Wilson      44
+Jamison Crowder     58
+Jason Witten        72
+Eric Kendricks      86
+Lavonte David      100
+Tyrann Mathieu     114
+Dez Bryant         128
+Kam Chancellor     142
+Robert Alford      156
+Matt Forte         170
+Deshaun Watson     184
+Noah Spence        198
+Jurrell Casey      212
+Duke Johnson Jr.   226
+Derrick Johnson    240
+Micah Hyde         254
+Chris Boswell      268
+Julius Thomas      282
+{'Offense':                   (Unnamed: 1_level_0, Bye)  ...    order
+Ameer Abdullah                            7  ...       30
+Kelvin Benjamin                           6  ...       16
+Dez Bryant                                6  ...      128
+Ezekiel Elliott                           6  ...        2
+Duke Johnson Jr.                          9  ...      226
+Deshaun Watson                            7  ...      184
+Russell Wilson                            6  ...       44
+Jason Witten                              6  ...       72
+
+[8 rows x 19 columns], 'Kicker':             Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Dan Bailey                   6         ...                          26
+Kai Forbath                  9         ...                          34
+
+[2 rows x 11 columns], 'Defense':                  Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Robert Alford                     5         ...                           0
+Lavonte David                     1         ...                           1
+Dante Fowler Jr.                  8         ...                           1
+Brandon Graham                   10         ...                           1
+Adoree Jackson                    8         ...                           0
+Eric Kendricks                    9         ...                           1
+Glover Quin                       7         ...                           1
+Jalen Ramsey                      8         ...                           0
+Anthony Zettel                    7         ...                           0
+
+[9 rows x 15 columns], 'Defnese':                 (Unnamed: 1_level_0, Bye)  ...    order
+Robert Alford                           5  ...      156
+Lavonte David                           1  ...      100
+Eric Kendricks                          9  ...       86
+
+[3 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Antonio Brown to Jonathan Williams
+Data columns (total 3 columns):
+Fuhonky       21 non-null float64
+Unnamed: 1    21 non-null object
+order         21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                           order
+Antonio Brown                  3
+Dalvin Cook                   17
+Willie Snead IV               31
+Kareem Hunt                   45
+Ben Roethlisberger            59
+Delanie Walker                73
+Kwon Alexander                87
+Deion Jones                  101
+Calais Campbell              115
+Rex Burkhead                 129
+Dominique RodgersCromartie   143
+Kurt Coleman                 157
+Carson Palmer                171
+Malcolm Butler               185
+Chris Jones                  199
+Derrick Henry                213
+Danny Amendola               227
+Dan Bailey                   241
+Bradley McDougald            255
+Cole Beasley                 269
+Jonathan Williams            283
+{'Offense':                     (Unnamed: 1_level_0, Bye)  ...    order
+Antonio Brown                               9  ...        3
+Dalvin Cook                                 9  ...       17
+Derrick Henry                               8  ...      213
+Kareem Hunt                                10  ...       45
+Ben Roethlisberger                          9  ...       59
+Willie Snead IV                            10  ...       31
+Delanie Walker                              8  ...       73
+
+[7 rows x 19 columns], 'Kicker':            Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                    Bye         ...                        Made
+Josh Lambo                  8         ...                          22
+
+[1 rows x 11 columns], 'Defense':                 Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                         Bye         ...                          TD
+Kwon Alexander                   1         ...                           0
+Antoine Bethea                   8         ...                           0
+Jon Bostic                       9         ...                           0
+James Bradberry                 11         ...                           0
+Calais Campbell                  8         ...                           1
+Demario Davis                    5         ...                           0
+Malik Jackson                    8         ...                           0
+AShawn Robinson                  7         ...                           1
+Trae Waynes                      9         ...                           0
+
+[9 rows x 15 columns], 'Defnese':                  (Unnamed: 1_level_0, Bye)  ...    order
+Kwon Alexander                           1  ...       87
+Calais Campbell                          8  ...      115
+
+[2 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Brandin Cooks to Kenny Stills
+Data columns (total 3 columns):
+Club A&R Boss    21 non-null float64
+Unnamed: 1       21 non-null object
+order            21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                 order
+Brandin Cooks        4
+Marshawn Lynch      18
+Dak Prescott        32
+Ty Montgomery       46
+Von Miller          60
+Jimmy Graham        74
+Randall Cobb        88
+Doug Baldwin       102
+Justin Houston     116
+Rico Gathers       130
+Jason PierrePaul   144
+E.J. Gaines        158
+Ndamukong Suh      172
+Andy Dalton        186
+Sterling Shepard   200
+Mason Crosby       214
+Taco Charlton      228
+Darren Sproles     242
+Patrick Chung      256
+Patrick Peterson   270
+Kenny Stills       284
+{'Offense':                   (Unnamed: 1_level_0, Bye)  ...    order
+Randall Cobb                              8  ...       88
+Brandin Cooks                             8  ...        4
+Jimmy Graham                              8  ...       74
+Marshawn Lynch                           10  ...       18
+Ty Montgomery                             8  ...       46
+Dak Prescott                              6  ...       32
+Sterling Shepard                          8  ...      200
+
+[7 rows x 19 columns], 'Kicker':             Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Graham Gano                 11         ...                          34
+
+[1 rows x 11 columns], 'Defense':                  Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Geno Atkins                       6         ...                           0
+Brandon Carr                     10         ...                           0
+Patrick Chung                     9         ...                           0
+Kyle Fuller                       9         ...                           0
+Tashaun Gipson                    8         ...                           0
+Justin Houston                   10         ...                           1
+Von Miller                        5         ...                           0
+Emmanuel Ogbah                    9         ...                           0
+Jason PierrePaul                  1         ...                           0
+Nick Vigil                        6         ...                           0
+
+[10 rows x 15 columns], 'Defnese':                   (Unnamed: 1_level_0, Bye)  ...    order
+Patrick Chung                             9  ...      256
+Justin Houston                           10  ...      116
+Von Miller                                5  ...       60
+Jason PierrePaul                          1  ...      144
+
+[4 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Drew Brees to Alan Branch
+Data columns (total 3 columns):
+Damn Jezebel    21 non-null float64
+Unnamed: 1      21 non-null object
+order           21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                   order
+Drew Brees             5
+Keenan Allen          19
+Allen Robinson II     33
+Carlos Hyde           47
+Devonta Freeman       61
+Tyler Eifert          75
+Brent Grimes          89
+Casey Hayward        103
+Antoine Bethea       117
+Frank Gore           131
+Terrelle Pryor Sr.   145
+Philip Rivers        159
+Lorenzo Alexander    173
+Paul Posluszny       187
+Rodney McLeod        201
+Ted Ginn Jr.         215
+Lawrence Timmons     229
+Adam Vinatieri       243
+Joey Bosa            257
+Charcandrick West    271
+Alan Branch          285
+{'Offense':                    (Unnamed: 1_level_0, Bye)  ...    order
+Keenan Allen                               9  ...       19
+Devonta Freeman                            5  ...       61
+Carlos Hyde                                9  ...       47
+Allen Robinson II                          9  ...       33
+
+[4 rows x 19 columns], 'Kicker':             Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Matt Bryant                  5         ...                          35
+
+[1 rows x 11 columns], 'Defense':                  Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Joey Bosa                         9         ...                           0
+Michael Brockers                  8         ...                           0
+Micah Hyde                        6         ...                           0
+Jalen Mills                      10         ...                           1
+Darius Slay                       7         ...                           0
+Lawrence Timmons                  1         ...                           0
+TreDavious White                  6         ...                           1
+Tahir Whitehead                  10         ...                           0
+K.J. Wright                       6         ...                           0
+
+[9 rows x 15 columns], 'Defnese':                   (Unnamed: 1_level_0, Bye)  ...    order
+Joey Bosa                                 9  ...      257
+Lawrence Timmons                          1  ...      229
+
+[2 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Aaron Rodgers to Jacquizz Rodgers
+Data columns (total 3 columns):
+The Night King    21 non-null float64
+Unnamed: 1        21 non-null object
+order             21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                  order
+Aaron Rodgers         6
+Mike Evans           20
+Leonard Fournette    34
+Bobby Wagner         48
+Stefon Diggs         62
+Zach Ertz            76
+Tony Jefferson       90
+Melvin Ingram       104
+Rob Kelley          118
+Marvin Jones Jr.    132
+Jordan Poyer        146
+Cameron Jordan      160
+Eric Reid           174
+Justin Tucker       188
+Linval Joseph       202
+Jeremy Maclin       216
+Jonathan Stewart    230
+Carson Wentz        244
+Maliek Collins      258
+Janoris Jenkins     272
+Jacquizz Rodgers    286
+{'Offense':                    (Unnamed: 1_level_0, Bye)  ...    order
+Stefon Diggs                               9  ...       62
+Zach Ertz                                 10  ...       76
+Mike Evans                                 1  ...       20
+Leonard Fournette                          8  ...       34
+Marvin Jones Jr.                           7  ...      132
+Aaron Rodgers                              8  ...        6
+
+[6 rows x 19 columns], 'Kicker':               Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                       Bye         ...                        Made
+Justin Tucker                 10         ...                          39
+
+[1 rows x 11 columns], 'Defense':                 Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                         Bye         ...                          TD
+Malcolm Butler                   8         ...                           0
+Mike Daniels                     8         ...                           0
+Matthias Farley                 11         ...                           0
+Melvin Ingram                    9         ...                           1
+Chandler Jones                   8         ...                           0
+Deion Jones                      5         ...                           0
+Linval Joseph                    9         ...                           0
+Daniel Sorensen                 10         ...                           0
+Bobby Wagner                     6         ...                           1
+
+[9 rows x 15 columns], 'Defnese':                (Unnamed: 1_level_0, Bye)  ...    order
+Melvin Ingram                          9  ...      104
+Linval Joseph                          9  ...      202
+Bobby Wagner                           6  ...       48
+
+[3 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Melvin Gordon to Wil Lutz
+Data columns (total 3 columns):
+Pelosi's Pinkos    21 non-null float64
+Unnamed: 1         21 non-null object
+order              21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                   order
+Melvin Gordon          7
+Demaryius Thomas      21
+Jordan Reed           35
+Isaiah Crowell        49
+Marcus Mariota        63
+A.J. Green            77
+Carlos Dunlap         91
+Christian Kirksey    105
+Jarvis Landry        119
+C.J. Anderson        133
+Morgan Burnett       147
+Barry Church         161
+Logan Ryan           175
+DeForest Buckner     189
+Jatavis Brown        203
+Daryl Worley         217
+Donte Moncrief       231
+Austin Hooper        245
+Terrance West        259
+Muhammad Wilkerson   273
+Wil Lutz             287
+{'Offense':                   (Unnamed: 1_level_0, Bye)  ...    order
+Isaiah Crowell                           11  ...       49
+Melvin Gordon                             9  ...        7
+A.J. Green                                6  ...       77
+Jarvis Landry                             9  ...      119
+Marcus Mariota                            8  ...       63
+Jordan Reed                               5  ...       35
+Demaryius Thomas                          5  ...       21
+
+[7 rows x 19 columns], 'Kicker':               Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                       Bye         ...                        Made
+Chris Boswell                  9         ...                          37
+
+[1 rows x 11 columns], 'Defense':                   Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                           Bye         ...                          TD
+Adrian Amos                        9         ...                           1
+NaVorro Bowman                    10         ...                           0
+DeForest Buckner                  11         ...                           0
+Barry Church                       8         ...                           1
+Jeff Heath                         6         ...                           0
+Trumaine Johnson                  11         ...                           1
+Cameron Jordan                     5         ...                           1
+Christian Kirksey                  9         ...                           0
+Ryan Smith                         1         ...                           0
+
+[9 rows x 15 columns], 'Defnese':                    (Unnamed: 1_level_0, Bye)  ...    order
+DeForest Buckner                          11  ...      189
+Barry Church                               8  ...      161
+Christian Kirksey                          9  ...      105
+
+[3 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Jordan Howard to Ryan Succop
+Data columns (total 3 columns):
+SAVIN RYANS PRIVATES    21 non-null float64
+Unnamed: 1              21 non-null object
+order                   21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                 order
+Jordan Howard        8
+Golden Tate         22
+DeSean Jackson      36
+Bilal Powell        50
+Kyle Rudolph        64
+Matt Ryan           78
+Danielle Hunter     92
+Eric Berry         106
+Mark Barron        120
+Ha Ha ClintonDix   134
+Vontaze Burfict    148
+Xavier Rhodes      162
+Tyreek Hill        176
+Kiko Alonso        190
+Rishard Matthews   204
+David Amerson      218
+Antonio Gates      232
+Kyle Williams      246
+Jay Cutler         260
+Jerry Hughes       274
+Ryan Succop        288
+{'Offense':                 (Unnamed: 1_level_0, Bye)  ...    order
+Tyreek Hill                            10  ...      176
+Jordan Howard                           9  ...        8
+DeSean Jackson                          1  ...       36
+Kyle Rudolph                            9  ...       64
+Matt Ryan                               5  ...       78
+Golden Tate                             7  ...       22
+
+[6 rows x 19 columns], 'Kicker':             Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Ryan Succop                  8         ...                          31
+
+[1 rows x 11 columns], 'Defense':                  Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Mark Barron                       8         ...                           0
+Vontaze Burfict                   6         ...                           0
+Ha Ha ClintonDix                  8         ...                           0
+Ronald Darby                     10         ...                           0
+Darqueze Dennard                  6         ...                           1
+Danielle Hunter                   9         ...                           0
+Chris Jones                      10         ...                           0
+Desmond King                      9         ...                           1
+T.J. McDonald                     1         ...                           0
+Joe Schobert                      9         ...                           0
+Olivier Vernon                    8         ...                           0
+
+[11 rows x 15 columns], 'Defnese':                   (Unnamed: 1_level_0, Bye)  ...    order
+Mark Barron                               8  ...      120
+Vontaze Burfict                           6  ...      148
+Ha Ha ClintonDix                          8  ...      134
+Danielle Hunter                           9  ...       92
+
+[4 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, T.Y. Hilton to Sebastian Janikowski
+Data columns (total 3 columns):
+Fightin Tur-duc-hens    21 non-null float64
+Unnamed: 1              21 non-null object
+order                   21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                     order
+T.Y. Hilton              9
+Julio Jones             23
+Larry Fitzgerald        37
+Telvin Smith            51
+Harrison Smith          65
+Cam Newton              79
+Ryan Shazier            93
+Olivier Vernon         107
+Danny Woodhead         121
+Bashaud Breeland       135
+Aaron Donald           149
+Reshad Jones           163
+Tevin Coleman          177
+Rob Gronkowski         191
+Jordan Matthews        205
+Sean Davis             219
+K.J. Wright            233
+Jamaal Charles         247
+Marcus Cooper          261
+Dwayne Allen           275
+Sebastian Janikowski   289
+{'Offense':                   (Unnamed: 1_level_0, Bye)  ...    order
+Tevin Coleman                             5  ...      177
+Larry Fitzgerald                          8  ...       37
+Rob Gronkowski                            9  ...      191
+T.Y. Hilton                              11  ...        9
+Julio Jones                               5  ...       23
+Cam Newton                               11  ...       79
+Danny Woodhead                           10  ...      121
+
+[7 rows x 19 columns], 'Kicker':              Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                      Bye         ...                        Made
+Jake Elliott                 10         ...                          39
+
+[1 rows x 11 columns], 'Defense':                Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                        Bye         ...                          TD
+Preston Brown                   6         ...                           0
+Aaron Donald                    8         ...                           0
+Trey Flowers                    9         ...                           0
+Myles Garrett                   9         ...                           0
+Casey Hayward                   9         ...                           0
+Reshad Jones                    1         ...                           2
+Logan Ryan                      8         ...                           0
+Harrison Smith                  9         ...                           0
+Telvin Smith                    8         ...                           2
+Vince Williams                  9         ...                           0
+
+[10 rows x 15 columns], 'Defnese':                 (Unnamed: 1_level_0, Bye)  ...    order
+Aaron Donald                            8  ...      149
+Reshad Jones                            1  ...      163
+Harrison Smith                          9  ...       65
+Telvin Smith                            8  ...       51
+
+[4 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Todd Gurley II to Jaylon Smith
+Data columns (total 3 columns):
+Mehs Can Eat A Dick!    21 non-null float64
+Unnamed: 1              21 non-null object
+order                   21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                  order
+Todd Gurley II       10
+Tom Brady            24
+Odell Beckham Jr.    38
+Doug Martin          52
+Eric Weddle          66
+Kevin White          80
+Jamal Adams          94
+Reuben Foster       108
+Evan Engram         122
+Adoree Jackson      136
+Darren McFadden     150
+Myles Garrett       164
+Zay Jones           178
+Earl Thomas         192
+Jerrell Freeman     206
+Corey Coleman       220
+Paul Perkins        234
+Dontari Poe         248
+Tavon Austin        262
+Graham Gano         276
+Jaylon Smith        290
+{'Offense':                    (Unnamed: 1_level_0, Bye)  ...    order
+Odell Beckham Jr.                          8  ...       38
+Tom Brady                                  9  ...       24
+Evan Engram                                8  ...      122
+Todd Gurley II                             8  ...       10
+Doug Martin                               10  ...       52
+
+[5 rows x 19 columns], 'Kicker':          Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                  Bye         ...                        Made
+Wil Lutz                  5         ...                          49
+
+[1 rows x 11 columns], 'Defense':                 Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                         Bye         ...                          TD
+Jamal Adams                     11         ...                           0
+Nigel Bradham                   10         ...                           1
+Kenny Clark                      8         ...                           0
+Reuben Foster                   11         ...                           0
+Dre Kirkpatrick                  6         ...                           0
+Blake Martinez                   8         ...                           0
+Yannick Ngakoue                  8         ...                           1
+Jordan Poyer                     6         ...                           1
+D.J. Swearinger                  5         ...                           0
+Eric Weddle                     10         ...                           1
+
+[10 rows x 15 columns], 'Defnese':                (Unnamed: 1_level_0, Bye)  ...    order
+Jamal Adams                           11  ...       94
+Reuben Foster                         11  ...      108
+Eric Weddle                           10  ...       66
+
+[3 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, DeMarco Murray to Cameron Brate
+Data columns (total 3 columns):
+Iraq Lobster    21 non-null float64
+Unnamed: 1      21 non-null object
+order           21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                      order
+DeMarco Murray           11
+Alshon Jeffery           25
+Andrew Luck              39
+Landon Collins           53
+Jamie Collins Sr.        67
+Travis Kelce             81
+Pierre Garcon            95
+C.J. Mosley             109
+Everson Griffen         123
+Jack Doyle              137
+T.J. Ward               151
+Fletcher Cox            165
+Stephen Gostkowski      179
+Theo Riddick            193
+Robby Anderson          207
+Vernon Hargreaves III   221
+Jahleel Addae           235
+Eddie Lacy              249
+Kenny Britt             263
+Samaje Perine           277
+Cameron Brate           291
+{'Offense':                 (Unnamed: 1_level_0, Bye)  ...    order
+Jack Doyle                             11  ...      137
+Alshon Jeffery                         10  ...       25
+Travis Kelce                           10  ...       81
+Andrew Luck                            11  ...       39
+DeMarco Murray                          8  ...       11
+Theo Riddick                            7  ...      193
+
+[6 rows x 19 columns], 'Kicker':                    Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                            Bye         ...                        Made
+Stephen Gostkowski                  9         ...                          45
+
+[1 rows x 11 columns], 'Defense':                       Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                               Bye         ...                          TD
+Jahleel Addae                          9         ...                           0
+Landon Collins                         8         ...                           0
+Fletcher Cox                          10         ...                           1
+Everson Griffen                        9         ...                           0
+Vernon Hargreaves III                  1         ...                           0
+Xavien Howard                          1         ...                           1
+Grady Jarrett                          5         ...                           0
+C.J. Mosley                           10         ...                           1
+Jabaal Sheard                         11         ...                           0
+Desmond Trufant                        5         ...                           1
+Wesley Woodyard                        8         ...                           1
+
+[11 rows x 15 columns], 'Defnese':                        (Unnamed: 1_level_0, Bye)  ...    order
+Jahleel Addae                                  9  ...      235
+Landon Collins                                 8  ...       53
+Fletcher Cox                                  10  ...      165
+Everson Griffen                                9  ...      123
+Vernon Hargreaves III                          1  ...      221
+C.J. Mosley                                   10  ...      109
+
+[6 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Christian McCaffrey to Alvin Kamara
+Data columns (total 3 columns):
+Show Me Your TDs    21 non-null float64
+Unnamed: 1          21 non-null object
+order               21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                    order
+Christian McCaffrey    12
+Michael Crabtree       26
+Davante Adams          40
+Khalil Mack            54
+LeVeon Bell            68
+Kenny Vaccaro          82
+NaVorro Bowman         96
+Kirk Cousins          110
+Karl Joseph           124
+Jay Ajayi             138
+Lamarcus Joyner       152
+Jadeveon Clowney      166
+Eric Ebron            180
+Eric Decker           194
+Mike Gillislee        208
+Adam Thielen          222
+Will Fuller V         236
+Matt Prater           250
+Vic Beasley Jr.       264
+Gerald McCoy          278
+Alvin Kamara          292
+{'Offense':                      (Unnamed: 1_level_0, Bye)  ...    order
+Davante Adams                                8  ...       40
+Jay Ajayi                                   10  ...      138
+LeVeon Bell                                  9  ...       68
+Kirk Cousins                                 9  ...      110
+Michael Crabtree                            10  ...       26
+Eric Ebron                                  11  ...      180
+Christian McCaffrey                         11  ...       12
+Adam Thielen                                 9  ...      222
+
+[8 rows x 19 columns], 'Kicker':             Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                     Bye         ...                        Made
+Matt Prater                  7         ...                          40
+
+[1 rows x 11 columns], 'Defense':                  Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                          Bye         ...                          TD
+Budda Baker                       8         ...                           0
+Jadeveon Clowney                  7         ...                           1
+Sean Davis                        9         ...                           0
+Khalil Mack                      10         ...                           0
+Jason McCourty                    9         ...                           1
+Antonio Morrison                 11         ...                           0
+Josh Norman                       5         ...                           0
+Ndamukong Suh                     8         ...                           0
+
+[8 rows x 15 columns], 'Defnese':                   (Unnamed: 1_level_0, Bye)  ...    order
+Jadeveon Clowney                          7  ...      166
+Khalil Mack                              10  ...       54
+
+[2 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Joe Mixon to John Ross
+Data columns (total 3 columns):
+#1andDONE seed    21 non-null float64
+Unnamed: 1        21 non-null object
+order             21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes
+                  order
+Joe Mixon            13
+Martavis Bryant      27
+Emmanuel Sanders     41
+DeAndre Hopkins      55
+Tyrell Williams      69
+Mark Ingram          83
+David Johnson        97
+Hunter Henry        111
+Kawann Short        125
+John Brown          139
+DeMarcus Lawrence   153
+Matthew Stafford    167
+Sua Cravens         181
+Devin McCourty      195
+Corey Davis         209
+A.J. Bouye          223
+Chris Harris Jr.    237
+Preston Brown       251
+T.J. Watt           265
+Josh Gordon         279
+John Ross           293
+{'Offense':                   (Unnamed: 1_level_0, Bye)  ...    order
+Mark Ingram                               5  ...       83
+David Johnson                             8  ...       97
+Joe Mixon                                 6  ...       13
+Matthew Stafford                          7  ...      167
+
+[4 rows x 19 columns], 'Kicker':              Unnamed: 1_level_0         ...         Unnamed: 11_level_0
+Player                      Bye         ...                        Made
+Robbie Gould                 11         ...                          28
+
+[1 rows x 11 columns], 'Defense':                   Unnamed: 1_level_0         ...         Unnamed: 15_level_0
+Player                           Bye         ...                          TD
+A.J. Bouye                         8         ...                           0
+Kevin Byard                        8         ...                           0
+Jurrell Casey                      8         ...                           0
+DeMarcus Lawrence                  6         ...                           0
+Devin McCourty                     9         ...                           0
+Danny Trevathan                    9         ...                           0
+T.J. Watt                          9         ...                           0
+Daryl Worley                      10         ...                           0
+
+[8 rows x 15 columns], 'Defnese':                    (Unnamed: 1_level_0, Bye)  ...    order
+A.J. Bouye                                 8  ...      223
+DeMarcus Lawrence                          6  ...      153
+Devin McCourty                             9  ...      195
+T.J. Watt                                  9  ...      265
+
+[4 rows x 16 columns]}
+<class 'pandas.core.frame.DataFrame'>
+Index: 21 entries, Amari Cooper to Giovani Bernard
+Data columns (total 3 columns):
+🏆Who Dat™🏆    21 non-null float64
+Unnamed: 1    21 non-null object
+order         21 non-null object
+dtypes: float64(1), object(2)
+memory usage: 672.0+ bytes

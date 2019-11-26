@@ -1,0 +1,971 @@
+
+
+.yui3-ysplayernote-hidden {
+    visibility: hidden;
+    left: -9999em;
+}
+
+.yui3-ysplayernote a {
+    text-decoration: none;
+}
+
+.yui3-ysplayernote {
+    text-align:left;
+    overflow: visible;
+    zoom:1;
+}
+
+.yui3-ysplayernote .yui3-ysplayernote-content {
+    box-shadow: 0px 0px 15px #111;
+    position: relative;
+    width:758px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-box-shadow: 0 0 15px rgba(30,30,30,.75);
+    -webkit-box-shadow: 0 0 15px rgba(30,30,30,.75);
+}
+
+.yui3-ysplayernote .yui3-ysplayernote-indicator {
+    height: 25px;
+    text-indent: -9999em;
+    position: absolute;
+    width: 14px;
+    z-index: 300;
+    zoom: 1;
+}
+
+.yui3-ysplayernote .yui3-ysplayernote-indicator {
+    background-image: url(https://s.yimg.com/dh/ap/fantasy/img/playernote_sprite_v1.png);
+}
+
+div.yui3-ysplayernote h6.yui3-ysplayernote-indicator {
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+div.yui3-ysplayernote-surround-L h6.yui3-ysplayernote-indicator {
+    background-position: 0 -25px;
+}
+
+.yui3-ysplayernote .yui3-dd-draggable .yui3-widget-hd {
+    cursor: move;
+    cursor: -moz-grab;
+}
+
+.yui3-ysplayernote .yui3-dd-dragging .yui3-widget-hd {
+    cursor: -moz-grabbing;
+}
+
+.yui3-ysplayernote .yui3-ysplayernote-close {
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    z-index: 300;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 0;
+}
+
+.yui3-ysplayernote .yui3-ysplayernote-close.close {
+    background: #777 url(https://s.yimg.com/dh/ap/fantasy/img/playernote_sprite_v1.png) no-repeat -30px -32px;
+    width: 11px;
+    height: 11px;
+    text-indent: -9999em;
+}
+
+.yui3-ysplayernote .yui3-ysplayernote-close.close:hover {
+    background-position: -15px -32px;
+}
+
+.yui3-ysplayernote .yui3-widget-hd {
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    border-top:1px solid #242424;
+    border-bottom:1px solid #878787;
+    background-image:url(https://s.yimg.com/dh/ap/fantasy/img/yahoo_fantasy_overlay_hd_v1.png);
+    background-color:#343434;
+    background-position:center 5px;
+    background-repeat:no-repeat;
+    height:41px;
+    text-indent:-999em;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+.yui3-ysplayernote .yui3-widget-hd {
+    background-image:url(https://s.yimg.com/dh/ap/fantasy/img/yahoo_fantasy_overlay_hd_v1_2x.png);
+    background-size: auto 31px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://s.yimg.com/dh/ap/fantasy/img/yahoo_fantasy_overlay_hd_v1_2x.png', sizingMethod='scale');
+}
+}
+
+.yui3-ysplayernote p.loading-view {
+    background: transparent url(https://s.yimg.com/lq/i/us/sp/fn/default/full/circle_loader_trans.gif) no-repeat top center;
+    color: white;
+    font-size: 85%;
+    font-weight: bold;
+    margin: 150px auto 0;
+    padding-top: 40px;
+    text-align: center;
+    width: 50%;
+}
+
+.yui3-ysplayernote div.yui3-ysplayernote-bdcontent p.loading-view {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    width: 100%;
+}
+.yui3-ysplayernote .playerinfo .leagueactions {
+    display:inline-block;
+    vertical-align:top;
+    padding-top:4px;
+}
+.yui3-ysplayernote .yui3-ysplayernote-tabview {
+    border-bottom: 1px solid #000000;
+}
+.yui3-ysplayernote .yui3-ysplayernote-tabview div.playernote-nav {
+    float:right;
+    padding:5px 0;
+    color:#929292;
+}
+.yui3-ysplayernote .yui3-ysplayernote-tabview div.playernote-nav a,
+.yui3-ysplayernote .yui3-ysplayernote-tabview div.playernote-nav a:visited {
+	color:#8ec0ff;
+	cursor: pointer;
+}
+.yui3-ysplayernote .yui3-ysplayernote-tabview div.playernote-nav a:hover,
+.yui3-ysplayernote .yui3-ysplayernote-tabview div.playernote-nav a:link{
+    color:#fff;
+}
+.yui3-ysplayernote h4 {
+    display:inline-block;
+    font-size: 140%;
+    line-height:1.5em;
+}
+.yui3-ysplayernote .yui3-widget-bd {
+    background: none repeat scroll 0 0 rgb(14, 14, 16);
+    height: 398px;
+    padding: 5px 5px 0;
+    position: relative;
+}
+.yui3-ysplayernote .tabbed .yui3-widget-bd {
+    height: 402px;
+}
+.yui3-ysplayernote .yui3-ysplayernote-bdcontent {
+    overflow: hidden;
+}
+.yui3-ysplayernote .dynamicnote-hd {
+    color: #929292;
+    height: 80px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+	width:100%;
+}
+
+.yui3-ysplayernote .dynamicnote-bd,
+.yui3-ysplayernote .dynamicnote-ft {
+  background-color: #FFF;
+}
+
+.yui3-ysplayernote .dynamicnote-hd .playernotesnav {
+    float:right;
+	padding:3.7em 0 0 10px;
+}
+.yui3-ysplayernote .dynamicnote-hd .playernotesnav a,
+.yui3-ysplayernote .dynamicnote-hd .playernotesnav a:link,
+.yui3-ysplayernote .dynamicnote-hd .playernotesnav a:visited,
+.yui3-ysplayernote .dynamicnote-hd .playernotesnav a:active {
+  font-size:85%;
+  color:#F59F00;
+}
+
+.yui3-ysplayernote .playernotesponsor {
+    right: 20px;
+    top: 4px;
+    position: absolute;
+}
+
+.yui3-ysplayernote .playerinfo {
+    display:inline-block;
+    vertical-align:top;
+    margin-top:2px;
+}
+.yui3-ysplayernote .playerinfo.blank {
+}
+
+.yui3-ysplayernote .dynamicnote-hd img.player {
+    display:inline-block;
+    margin:0 0 0 10px;
+}
+
+.yui3-ysplayernote div.playerinfo a,
+.yui3-ysplayernote div.playerinfo a:link,
+.yui3-ysplayernote div.playerinfo a:visited {
+    color: #8EC0FF;
+}
+
+.yui3-ysplayernote div.playerinfo a:hover,
+.yui3-ysplayernote div.playerinfo a:active {
+    color: #fff;
+}
+
+.yui3-ysplayernote h4 a.name  {
+    margin-right: 7px;
+}
+
+.yui3-ysplayernote .playerdetails span.status  {
+    color: #E86155;
+    margin:0;
+}
+
+.yui3-ysplayernote .playerdetails span.injured  {
+    background-position: center left;
+    float: left;
+    margin-right: 5px;
+    text-indent: 0;
+    width: auto;
+}
+
+.yui3-ysplayernote .headshot{
+    height: 80px;
+    width: 120px;
+    display: inline-block;
+}
+.yui3-ysplayernote .headshot.team{
+    background-size: 80px 80px;
+}
+.yui3-ysplayernote .cfb .headshot{
+    width: 80px;
+    margin: 0 10px;
+}
+.yui3-ysplayernote .cfb .headshot.team{
+    border: 1px solid #444;
+    border-radius: 24px;
+}
+.yui3-ysplayernote .playerinfo dl {
+    line-height:1.7em;
+    color:#b0b0b0;
+    clear: left;
+}
+.yui3-ysplayernote .playerinfo dl.team-owner {
+    width:100%;
+}
+
+.yui3-ysplayernote .playerinfo dt {
+    display: none;
+}
+
+.yui3-ysplayernote .playerinfo dd {
+    display: block;
+    float: left;
+}
+
+.yui3-ysplayernote .playerinfo dt.owner {
+    float: left;
+    margin-right: 2px;
+}
+
+.yui3-ysplayernote .playerinfo dd.last {
+    clear: right;
+    margin-right:0;
+    padding-right:0;
+}
+
+.yui3-ysplayernote .playerdetails dd span{
+    color: #333;
+    margin: 0 5px;
+}
+
+.yui3-ysplayernote ul.seasonstats{
+    position: absolute;
+    right: 10px;
+    top:7px;
+}
+
+.yui3-ysplayernote .playerinfo ul.seasonstats li{
+    display:inline-block;
+    padding-right:30px;
+}
+
+.yui3-ysplayernote .playerinfo ul.seasonstats li.last{
+    padding-right:0;
+}
+
+.yui3-ysplayernote .playerinfo ul.seasonstats li dl{
+    margin:0;
+    padding:0;
+}
+
+.yui3-ysplayernote .playerinfo ul.seasonstats li dl dt{
+    display:block;
+    font-size: 12px;
+    font-weight: 200;
+}
+.yui3-ysplayernote .playerinfo ul.seasonstats li dl dd{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.yui3-ysplayernote .playernoteview {
+    xwidth: 100%;
+    overflow: hidden;
+}
+
+.yui3-ysplayernote .playernote-ft {
+    border-top: 1px solid #b3b3b3;
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+    zoom: 1;
+}
+
+.yui3-ysplayernote .yui3-widget-ft {
+    background: white;
+    border-right: 5px solid #282828; 
+    border-bottom: 5px solid #282828; 
+    border-left: 5px solid #282828;
+    height: 90px;
+    padding:10px;
+}
+
+.yui3-ysplayernote .yui3-widget-ft .ad_slug_table .can_ad_slug {
+		display:none;
+}
+
+.yui3-ysplayernote .playernote-FB {
+    height: 90px;
+    width: 728px;
+}
+
+.yui3-ysplayernote .playernotepromos {
+    height: 90px;
+    width: 728px;
+}
+
+#playernotesponsor {
+    right: 20px;
+    top: 4px;
+    position: absolute;
+}
+
+
+.yui3-ysplayernote  p.rating-value {
+    color: #333;
+    margin: 5px 5px 0;
+    padding: 2px;
+}
+
+.yui3-ysplayernote  p.rating-value strong {
+    display: block;
+    font-weight: bold;
+    line-height:131%;
+}
+
+.yui3-ysplayernote p.rating-comment {
+    color: #333;
+    margin: 0 5px;
+    padding: 0 2px;
+    line-height:131%;
+}
+.yui3-ysplayernote ul.dynamicnote-tabs{
+    display:inline-block;
+}
+
+.yui3-ysplayernote .dynamicnote-tabs-hidden {
+    visibility : hidden;
+}
+.yui3-ysplayernote .dynamicnote-tabs-hidden * {
+    display: none;
+}
+.yui3-ysplayernote .dynamicnote-tabs-hidden li.first,
+.yui3-ysplayernote .dynamicnote-tabs-hidden li.first a {
+    display: block;
+    visibility: hidden;
+}
+
+.yui3-ysplayernote .playernoteview-notes {
+    height: 292px;
+    background-color: white;
+}
+.yui3-ysplayernote .playernoteview-twitter {
+    height: 292px;
+}
+.yui3-ysplayernote .playernoteview-video {
+    height: 290px;
+}
+.yui3-ysplayernote .dynamicnote-hd:after,
+.yui3-ysplayernote .yui3-ysplayernote-bdcontent-bd:after,
+.yui3-ysplayernote .dynamicnote-hd .dl:after,
+.yui3-ysplayernote .comp-view:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.yui3-ysplayernote .dynamicnote-hd,
+.yui3-ysplayernote .dynamicnote-tabs,
+.yui3-ysplayernote .yui3-ysplayernote-bdcontent-bd,
+.yui3-ysplayernote .dynamicnote-hd .dl,
+.yui3-ysplayernote .comp-view{
+    zoom : 1;
+}
+
+
+
+.yui3-ysplayernote .dynamicnote-tabs {
+}
+
+.yui3-ysplayernote ul.dynamicnote-tabs {
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size:13px;
+    font-weight:400;
+    color:#DADADA;
+    word-spacing:0px;
+    line-height:17.55px;
+    text-align:left;
+    margin:0;
+    padding-top:5px;
+    padding-left:6px;
+    position:relative;
+    display:inline-block;
+    white-space:normal;
+    list-style:none outside none;
+}
+.yui3-ysplayernote .dynamicnote-tabs li {
+    font-family:"Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size:13px;
+    font-weight:400;
+    color:#DADADA;
+    letter-spacing:normal;
+    word-spacing:0px;
+    line-height:17.55px;
+    text-align:left;
+    vertical-align:middle;
+    margin:0 10px;
+    padding:0 0 5px 0;
+    position:relative;
+    display:inline-block;
+    white-space:normal;
+    list-style:none outside none;
+}
+.yui3-ysplayernote .dynamicnote-tabs li.selected {
+    border-bottom: 5px solid #DADADA;
+    padding-bottom:0;
+}
+
+.yui3-ysplayernote .dynamicnote-tabs li a {
+    color:#dadada;
+    padding: 6px 0;
+}
+.yui3-ysplayernote .dynamicnote-tabs li.selected a {
+    color: #eee;
+    font-weight: 700;
+}
+.yui3-ysplayernote .dynamicnote-tabs li a:hover {
+    color:#fff;
+}
+.yui3-ysplayernote .yui3-ysplayernote-tabview .playernote-tabs {
+    margin-bottom:1px;
+    padding-right:10px;
+    background:rgb(52, 52, 52);
+    min-height:28px;
+}
+
+
+ 
+.yui3-ysplayernote .playerdata,
+.yui3-ysplayernote .playernotes {
+    background-color: white;
+    float: left;
+    width: 50%;
+}
+
+.yui3-ysplayernote .playernotes {
+    float: right;
+}
+
+.yui3-ysplayernote .playerdata {
+    border-right: 1px solid #CCCCCC;
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    width: 49%;
+}
+
+.yui3-ysplayernote .playerdetails em{
+    font-size:85%;
+}
+.yui3-ysplayernote .playerdetails em.positive {
+    color: #14A963;
+}
+
+.yui3-ysplayernote .playerdetails em.negative {
+    color: #E86155;
+}
+
+.yui3-ysplayernote .teamsched-bd,
+.yui3-ysplayernote .yui-dt-bd
+{
+    background: white;
+    height: 100px;
+    overflow: auto;
+}
+
+.yui3-ysplayernote .teamsched .yui-dt-odd td {
+    background-color: white;
+}
+.yui3-ysplayernote .teamsched .yui-dt-even td {
+    background-color: #F1F2ED;
+}
+
+.yui3-ysplayernote .no-sched {
+    height: 119px;
+}
+
+.yui3-ysplayernote .no-sched .team-table td {
+  padding: 10px 4px;
+}
+
+.yui3-ysplayernote .playernotes-ft {
+    margin-top: -2px;
+    font-size: 77%;
+    zoom: 1;
+}
+
+.yui3-ysplayernote .teamsched-ft,
+.yui3-ysplayernote .playernotes-ft
+{
+    border-top: 1px solid #CCCCCC;
+}
+.yui3-ysplayernote .teamsched-ft {
+    
+}
+.yui3-ysplayernote .playernotes-ft {
+    
+}
+
+.yui3-ysplayernote .teamsched-ft p,
+.yui3-ysplayernote .playernotes-ft p {
+    background: white;
+    border-top: 1px solid #dbdbdb;
+    height: 10px;
+    padding: 5px;
+}
+
+.yui3-ysplayernote .teamsched .teamtable {
+    margin-bottom: 0;
+    width: auto;
+}
+
+.yui3-ysplayernote .teamsched-bd {
+    height: 117px;
+}
+.yui3-ysplayernote .teamsched-bd h5 {
+    padding:3px;
+    background-color:#eee;
+}
+.yui3-ysplayernote .teamsched-bd .teamtable {
+    position: absolute;
+    left: -9999em;
+}
+
+.yui3-ysplayernote .no-sched .teamtable {
+    position: static;
+    left: 0;
+}
+
+.yui3-ysplayernote .teamsched table td.opp {
+    width: auto;
+}
+.yui3-ysplayernote .teamsched table td.fanpts{
+    width: 50px;
+    font-weight:bold;
+    text-align:left;
+}
+
+.yui3-ysplayernote .teamsched th em {
+    display:block;
+}
+
+.yui3-ysplayernote .teamsched th,
+.yui3-ysplayernote .teamsched thead
+{
+    border-width: 0;
+}
+
+.yui3-ysplayernote .teamsched .yui-dt-hd {
+    border-bottom: 1px solid #ABAB9E;
+    background-position:50% -2px;
+    background-repeat:repeat-x;
+}
+
+.yui3-ysplayernote .no-sched table {
+    width: 100%;
+}
+
+.yui3-ysplayernote .no-sched td {
+    text-align: center;
+}
+
+.yui3-ysplayernote .teamsched {
+    zoom:1;
+}
+
+.yui3-ysplayernote .teamsched .teamtable th.first {
+    border-left: 1px solid white;
+}
+
+.yui3-ysplayernote .teamsched .teamtable th {
+    border-right: 1px solid #ABAB9E;
+}
+
+.yui3-ysplayernote .teamsched .teamtable th.last {
+    border-right: 0px;
+}
+
+.yui3-ysplayernote .teamsched .teamtable td,
+.yui3-ysplayernote .teamsched .teamtable th
+{
+    white-space: nowrap;
+}
+
+.yui3-ysplayernote .teamsched .teamtable tr.future td.points {
+    color: #6f6f6f;
+    font-style: italic;
+}
+.yui3-ysplayernote .teamsched .teamtable th.stat {
+    background-color:#D8D9D5;
+    background-position:50% -2px;
+    background-repeat:repeat-x;
+    border-bottom:0 none;
+    text-align: center;
+}
+.yui3-ysplayernote .teamsched .teamtable th.three-pnt{
+    width:40px;
+}
+.yui3-ysplayernote .teamsched .teamtable td.status a.video {
+    display: inline-block;
+    text-indent: -9999em;
+    margin-left: 3px;
+    overflow: hidden;
+    padding-left: 0;
+    width: 13px;
+    zoom: 1;
+}
+.yui3-ysplayernote .teamsched .teamtable th.stat,
+.yui3-ysplayernote .teamsched .teamtable td.stat,
+.yui3-ysplayernote .teamsched .teamtable th.stat div,
+.yui3-ysplayernote .teamsched .teamtable td.stat div {
+    min-width: 25px;
+    text-align:left;
+    whitespace: nowrap;
+}
+.yui3-ysplayernote .teamsched .teamtable td.stat,
+.yui3-ysplayernote .teamsched .teamtable td.stat div {
+    min-width: 25px;
+}
+.yui3-ysplayernote .teamsched .teamtable th.yui-dt-col-gaa,
+.yui3-ysplayernote .teamsched .teamtable th.yui-dt-col-gaa div {
+    width: 25px;
+}
+.yui3-ysplayernote .teamsched .teamtable td.yui-dt-col-gaa,
+.yui3-ysplayernote .teamsched .teamtable td.yui-dt-col-gaa div {
+    width: 26px;
+}
+
+.yui3-ysplayernote .teamsched .teamtable tr.no-sched {
+    margin-bottom: 59px;
+}
+
+.yui3-ysplayernote .teamsched tr.future em.proj-pts,
+.yui3-ysplayernote .teamsched tr.current em.proj-pts,
+.yui3-ysplayernote .teamsched-ft em.proj-pts {
+    color: #868784;
+    font-style: italic;
+}
+
+.yui3-ysplayernote .teamsched-ft em.proj-pts {
+    display: block;
+    float: right;
+}
+
+.yui3-ysplayernote .playernotes-bd {
+    font-size: 85%;
+    height: 270px;
+    overflow: auto;
+    padding:0 7px 0;
+}
+
+.yui3-ysplayernote .playernotes-bd h6 {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.yui3-ysplayernote .playernotes-bd p.no-notes {
+    border-bottom: 1px solid #313131;
+    color: #9d9d9d;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.yui3-ysplayernote .noteitem {
+    border-bottom: 1px solid #313131;
+    padding:2px 2px 10px;
+    margin: 10px 5px 10px;
+    zoom:1;
+}
+
+.yui3-ysplayernote li.last {
+    border-bottom: none;
+}
+
+.yui3-ysplayernote .noteitem img {
+    margin-right: 4px;
+}
+
+.yui3-ysplayernote .noteitem p {
+    line-height: 131%;
+    margin-bottom: 5px;
+}
+
+.yui3-ysplayernote h4.team-notes {
+    color: #2a2a2a;
+    font-size: 92%;
+    margin-left: 7px;
+    float:none;
+}
+
+.yui3-ysplayernote h5 {
+    font-weight: bold;
+}
+
+.yui3-ysplayernote .noteitem strong,
+.yui3-ysplayernote .noteitem em {
+    font-weight: bold;
+}
+
+.yui3-ysplayernote .noteitem cite {
+    display: block;
+    margin-top: -5px;
+}
+.yui3-ysplayernote-hidden .teamsched .teamtable th {
+    border-right: none;
+}
+
+.yui3-ysplayernote-hidden .teamsched .teamtable {
+    border-top: none;
+    border-bottom: none;
+}
+
+.yui3-ysplayernote-hidden .teamsched thead,
+.yui3-ysplayernote-hidden .teamsched-ft {
+    border: none;
+}
+
+.yui3-ysplayernote .teamsched{
+    zoom:1;
+    border-bottom:1px solid #abab9e;
+    height:250px;
+    margin:auto auto;
+    padding-top:20px;
+    position:relative;
+    background-color:#d8d9d5;
+}
+.yui3-ysplayernote .teamsched .teamtable th div.th-inner{
+    line-height:20px;
+    margin-left:-3px;
+    padding-left:5px;
+    position:absolute;
+    text-align:left;
+    top:0;
+    white-space:nowrap;
+}
+
+.yui3-ysplayernote .teamsched .teamtable .headerRow0 th{
+    background:none;
+}
+.yui3-ysplayernote .teamsched .teamtable{
+    width:100%;
+}
+.yui3-ysplayernote .teamsched .teamtable th div{
+    border-left:1px solid #ABAB9E;
+}
+.yui3-ysplayernote .teamsched .teamtable th.first div{
+    border-left:0;
+}
+.yui3-ysplayernote .teamsched .teamtable th.week{
+    width:35px;
+}
+.yui3-ysplayernote .teamsched .teamtable{
+    margin-bottom:0;
+    border-collapse:collapse;
+}
+.yui3-ysplayernote .teamsched-bd{
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.yui3-ysplayernote .teamsched .teamtable tr th{
+    padding:0;
+}
+.yui3-ysplayernote .teamsched-bd .teamtable{
+    position:static;
+}
+.yui3-ysplayernote .teamsched .teamtable th{
+    border-right:0;
+}
+
+
+
+.playernoteview-twitter{
+	background-color:#fff;
+}
+
+.playernoteview-twitter .navlist li { 
+  float: left;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.playernoteview-twitter ul.twitter-official,
+.playernoteview-twitter ul.twitter-search {
+  list-style: none outside none;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	height: 262px;
+	_height: 267px;
+	width:100%;
+}
+
+.playernoteview-twitter ul.twitter-official li,
+.playernoteview-twitter ul.twitter-search li{
+	border-top:1px solid #e7e7e5;
+	*width:480px;
+  height: auto;
+	display:block;
+  list-style: none outside none;
+  min-height: 65px;
+	line-height:1.2em;
+	clear:left;
+	padding:5px 0;
+}
+
+.playernoteview-twitter ul.twitter-official li a.avatar,
+.playernoteview-twitter ul.twitter-search li a.avatar{
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+	width:48px;
+	height:48px;
+	text-indent:-999em;
+	padding:5px;
+	float:left;
+	display:block;
+}
+
+.playernoteview-twitter ul.twitter-official li.first,
+.playernoteview-twitter ul.twitter-search li.first{
+	border-top:none;
+	margin-top:5px;
+}
+
+.playernoteview-twitter ul.twitter-official li.last,
+.playernoteview-twitter ul.twitter-search li.last{
+	border-bottom:1px solid #e7e7e5;
+}
+
+.playernoteview-twitter ul.twitter-official li.notweets,
+.playernoteview-twitter ul.twitter-search li.notweets{
+	padding-left:10px;
+}
+
+.playernoteview-twitter ul.twitter-official li.odd,
+.playernoteview-twitter ul.twitter-search li.odd{
+	background-color:#fff;
+}
+
+.playernoteview-twitter ul.twitter-official li.even,
+.playernoteview-twitter ul.twitter-search li.even{
+	background-color:#f1f2ed;
+}
+
+.playernoteview-twitter ul.twitter-official li span,
+.playernoteview-twitter ul.twitter-search li span{
+	font-weight:bold;
+}
+
+.playernoteview-twitter ul.twitter-official li span.time,
+.playernoteview-twitter ul.twitter-search li span.time{
+	font-weight:normal;
+	color:#999;
+	font-size:85%;
+}
+
+.playernoteview-twitter ul.twitter-official li.noresults,
+.playernoteview-twitter ul.twitter-search li.noresults{
+	padding:10px;
+}
+
+ul.twitter-search{
+	display:none;
+}
+
+.twitternav{
+  padding:5px;
+  position:relative;
+  text-align: left;
+  overflow: hidden;
+  color: #666;
+  font-size: 85%;
+	-moz-box-shadow:0 3px 3px #aaa;
+	-webkit-box-shadow:0 3px 3px #aaa;
+	box-shadow:0 3px 3px #aaa;
+	*border-bottom:1px solid #aaa;
+	width:100%;
+}
+
+.twitternav ul{
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  zoom:1;
+  *display:inline;
+	position:fixed;
+	width:100%;
+}
+
+.twitternav li{
+  padding: 3px 8px;
+  margin: 0 2px;
+}
+
+.twitternav li a{
+  color: #0069aa;
+}
+
+.twitternav li.selected a{
+  color: #000;
+  font-weight:bold;
+}
+
+
+.yui3-ysplayernote .playernoteview-video {
+    background-color: white;
+    margin-bottom: 1px;
+}
+.yui3-ysplayernote .playernoteview-video div {
+    margin-top: 10px;
+    text-align: center;
+}
+.yui3-ysplayernote .playernoteview-video div.no-video p {
+    margin-top: 120px;
+}
